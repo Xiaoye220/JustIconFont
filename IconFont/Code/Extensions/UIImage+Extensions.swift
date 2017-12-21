@@ -11,22 +11,23 @@ import UIKit
 
 extension UIImage {
     
-    public static func iconFont(size: CGFloat, icon: IconFontType, color: UIColor?) -> UIImage {
-        let imageSize: CGSize = CGSize(width: size, height: size)
+    public static func iconFont(size fontSize: CGFloat, icon: IconFontType, color: UIColor?) -> UIImage {
+        var attributes = [NSAttributedStringKey: Any]()
+        attributes[NSAttributedStringKey.font] = UIFont(iconFont: icon, size: fontSize)
+        if let color = color {
+            attributes[NSAttributedStringKey.foregroundColor] = color
+        }
+        let attributedString = NSAttributedString(string: icon.unicode, attributes: attributes)
+        
+        let rect = attributedString.boundingRect(with: CGSize(width: CGFloat(MAXFLOAT), height: fontSize), options: .usesLineFragmentOrigin, context: nil)
+
+        let imageSize: CGSize = rect.size
         UIGraphicsBeginImageContextWithOptions(imageSize, false, UIScreen.main.scale)
-        
-        let label =  UILabel.iconFont(size: size, icon: icon, color: color)
-        label.layer.render(in: UIGraphicsGetCurrentContext()!)
-        
-//        var attributes = [NSAttributedStringKey: Any]()
-//        attributes[NSAttributedStringKey.font] = UIFont(iconFont: icon, size: size)
-//        if let color = color {
-//            attributes[NSAttributedStringKey.foregroundColor] = color
-//        }
-//        let attributedString = NSAttributedString(string: icon.unicode, attributes: attributes)
-//        attributedString.draw(in: CGRect(x: 0, y: 0, width: size, height: size))
+
+        attributedString.draw(in: rect)
         
         let image: UIImage = UIGraphicsGetImageFromCurrentImageContext()!
+        UIGraphicsEndImageContext()
         
         return image
     }

@@ -11,14 +11,8 @@ import UIKit
 
 extension UILabel: IconFontViewType {
     
-    public static func iconFont(size: CGFloat, icon: IconFontType, color: UIColor? = nil) -> UILabel {
-        let label = UILabel.init(frame: CGRect.init(x: 0, y: 0, width: size, height: size))
-        label.iconFont(size: size, icon: icon, color: color)
-        return label
-    }
-    
-    public func iconFont(size: CGFloat, icon: IconFontType, color: UIColor? = nil) {
-        let attributes = self.attributes(size: size, icon: icon, color: color)
+    public func iconFont(size fontSize: CGFloat, icon: IconFontType, color: UIColor? = nil) {
+        let attributes = self.attributes(size: fontSize, icon: icon, color: color)
         attributedText = NSAttributedString(string: icon.unicode, attributes: attributes)
     }
     

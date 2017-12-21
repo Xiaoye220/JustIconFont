@@ -12,23 +12,10 @@ import UIKit
 extension UITabBarItem {
     
     public func iconFont(size: CGFloat, icon: IconFontType, color: UIColor? = nil) {
-        image = UIImage.iconFont(size: size, icon: icon, color: color)
+        self.image = UIImage.iconFont(size: size, icon: icon, color: color).withRenderingMode(.alwaysOriginal)
     }
     
-//    public func iconFont(size: CGFloat, icon: IconFontType, color: UIColor? = nil, type: UIBarButtonItemIconType = .image) {
-//        switch type {
-//        case .image:
-//            image = UIImage.iconFont(size: size, icon: icon, color: color)
-//            tintColor = color
-//        case .title:
-//            var attributes = [NSAttributedStringKey: Any]()
-//            attributes[NSAttributedStringKey.font] = UIFont(iconFont: icon, size: size)
-//            if let color = color {
-//                attributes[NSAttributedStringKey.foregroundColor] = color
-//            }
-//            setTitleTextAttributes(attributes, for: .normal)
-//            title = icon.unicode
-//        }
-//    }
-    
+    public func selectedIconFont(size: CGFloat, icon: IconFontType, color: UIColor? = nil) {
+        self.selectedImage = UIImage.iconFont(size: size, icon: icon, color: color).withRenderingMode(.alwaysOriginal)
+    }
 }

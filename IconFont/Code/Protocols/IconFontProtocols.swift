@@ -50,17 +50,13 @@ extension IconFontType {
 
 
 public protocol IconFontViewType {
-    associatedtype View
-    
-    static func iconFont(size: CGFloat, icon: IconFontType, color: UIColor?) -> View
-    
-    func iconFont(size: CGFloat, icon: IconFontType, color: UIColor?)
+    func iconFont(size fontSize: CGFloat, icon: IconFontType, color: UIColor?)
 }
 
 extension IconFontViewType {
-    func attributes(size: CGFloat, icon: IconFontType, color: UIColor?) -> [NSAttributedStringKey: Any] {
+    func attributes(size fontSize: CGFloat, icon: IconFontType, color: UIColor?) -> [NSAttributedStringKey: Any] {
         var attributes = [NSAttributedStringKey: Any]()
-        attributes[NSAttributedStringKey.font] = UIFont(iconFont: icon, size: size)
+        attributes[NSAttributedStringKey.font] = UIFont(iconFont: icon, size: fontSize)
         if let color = color {
             attributes[NSAttributedStringKey.foregroundColor] = color
         }
