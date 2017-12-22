@@ -43,17 +43,17 @@ extension IconFontType {
             print("Unable to load font: %@", errorDescription, terminator: "")
             return false
         }
-        
+
         return true
     }
 }
 
 
-public protocol IconFontViewType {
-    func iconFont(size fontSize: CGFloat, icon: IconFontType, color: UIColor?)
+public protocol IconFontExtensionsType {
+
 }
 
-extension IconFontViewType {
+extension IconFontExtensionsType {
     func attributes(size fontSize: CGFloat, icon: IconFontType, color: UIColor?) -> [NSAttributedStringKey: Any] {
         var attributes = [NSAttributedStringKey: Any]()
         attributes[NSAttributedStringKey.font] = UIFont(iconFont: icon, size: fontSize)
@@ -62,6 +62,13 @@ extension IconFontViewType {
         }
         
         return attributes
+    }
+    
+    func attributedString(size fontSize: CGFloat, icon: IconFontType, color: UIColor?) -> NSAttributedString {
+        let attributes = self.attributes(size: fontSize, icon: icon, color: color)
+        let attributedString = NSAttributedString(string: icon.unicode, attributes: attributes)
+
+        return attributedString
     }
 }
 

@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         }
     }
     
-    let contents = ["UI Example"]
+    let contents = ["UI Example", "FontAwesome", "Custom IconFont"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -59,7 +59,12 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         case "showUIExample"?:
             break
         case "showIconFont"?:
-            break
+            let controller = segue.destination as! ShowIconViewController
+            if indexPath.section == 1 {
+                controller.iconFont = .FontAwesome
+            } else {
+                controller.iconFont = .custom
+            }
         default:
             break
         }

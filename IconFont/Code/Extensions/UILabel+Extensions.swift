@@ -9,11 +9,11 @@
 import Foundation
 import UIKit
 
-extension UILabel: IconFontViewType {
+extension UILabel: IconFontExtensionsType {
     
     public func iconFont(size fontSize: CGFloat, icon: IconFontType, color: UIColor? = nil) {
-        let attributes = self.attributes(size: fontSize, icon: icon, color: color)
-        attributedText = NSAttributedString(string: icon.unicode, attributes: attributes)
+        let attributedString = self.attributedString(size: fontSize, icon: icon, color: color)
+        self.attributedText = attributedString
     }
     
 }

@@ -13,18 +13,16 @@
 		2FB17FD41FE8EB0300E1C0C3 /* EnumUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB17FD31FE8EB0300E1C0C3 /* EnumUtils.swift */; };
 		2FB17FD91FE8F91700E1C0C3 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FB17FD81FE8F91700E1C0C3 /* FontAwesome.ttf */; };
 		2FB17FDB1FE8F94500E1C0C3 /* CustomIconFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB17FDA1FE8F94500E1C0C3 /* CustomIconFont.swift */; };
-		2FB17FDF1FE8FCB100E1C0C3 /* iconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FB17FDE1FE8FCB100E1C0C3 /* iconfont.ttf */; };
 		2FC295C41FEA442200318A58 /* UIBarButtonItem+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC295C31FEA442200318A58 /* UIBarButtonItem+Extensions.swift */; };
 		2FC295C61FEA48C600318A58 /* UIExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC295C51FEA48C600318A58 /* UIExampleViewController.swift */; };
-		2FC295C81FEA56AE00318A58 /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC295C71FEA56AE00318A58 /* UIImageView+Extensions.swift */; };
 		2FC295CA1FEA595700318A58 /* UIButton+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC295C91FEA595700318A58 /* UIButton+Extensions.swift */; };
-		2FC295CC1FEA5B7F00318A58 /* UITabBarItem+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC295CB1FEA5B7F00318A58 /* UITabBarItem+Extensions.swift */; };
+		2FC295D51FECAE0F00318A58 /* iconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FC295D41FECAE0F00318A58 /* iconfont.ttf */; };
+		2FC295D71FECAEEE00318A58 /* ShowIconViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC295D61FECAEEE00318A58 /* ShowIconViewController.swift */; };
 		2FDC1D6D1FE3C0C400BD86B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDC1D6C1FE3C0C400BD86B8 /* AppDelegate.swift */; };
 		2FDC1D6F1FE3C0C400BD86B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDC1D6E1FE3C0C400BD86B8 /* ViewController.swift */; };
 		2FDC1D721FE3C0C400BD86B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FDC1D701FE3C0C400BD86B8 /* Main.storyboard */; };
 		2FDC1D741FE3C0C400BD86B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FDC1D731FE3C0C400BD86B8 /* Assets.xcassets */; };
 		2FDC1D771FE3C0C400BD86B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FDC1D751FE3C0C400BD86B8 /* LaunchScreen.storyboard */; };
-		2FDC1D811FE3C4AD00BD86B8 /* IconFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDC1D801FE3C4AD00BD86B8 /* IconFont.swift */; };
 		2FDC1D831FE3C4C600BD86B8 /* IconFontProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDC1D821FE3C4C600BD86B8 /* IconFontProtocols.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,12 +33,11 @@
 		2FB17FD31FE8EB0300E1C0C3 /* EnumUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumUtils.swift; sourceTree = "<group>"; };
 		2FB17FD81FE8F91700E1C0C3 /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
 		2FB17FDA1FE8F94500E1C0C3 /* CustomIconFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomIconFont.swift; sourceTree = "<group>"; };
-		2FB17FDE1FE8FCB100E1C0C3 /* iconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont.ttf; sourceTree = "<group>"; };
 		2FC295C31FEA442200318A58 /* UIBarButtonItem+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Extensions.swift"; sourceTree = "<group>"; };
 		2FC295C51FEA48C600318A58 /* UIExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExampleViewController.swift; sourceTree = "<group>"; };
-		2FC295C71FEA56AE00318A58 /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
 		2FC295C91FEA595700318A58 /* UIButton+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extensions.swift"; sourceTree = "<group>"; };
-		2FC295CB1FEA5B7F00318A58 /* UITabBarItem+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITabBarItem+Extensions.swift"; sourceTree = "<group>"; };
+		2FC295D41FECAE0F00318A58 /* iconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont.ttf; sourceTree = "<group>"; };
+		2FC295D61FECAEEE00318A58 /* ShowIconViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowIconViewController.swift; sourceTree = "<group>"; };
 		2FDC1D691FE3C0C300BD86B8 /* IconFont.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IconFont.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FDC1D6C1FE3C0C400BD86B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2FDC1D6E1FE3C0C400BD86B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +45,6 @@
 		2FDC1D731FE3C0C400BD86B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FDC1D761FE3C0C400BD86B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2FDC1D781FE3C0C400BD86B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2FDC1D801FE3C4AD00BD86B8 /* IconFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconFont.swift; sourceTree = "<group>"; };
 		2FDC1D821FE3C4C600BD86B8 /* IconFontProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconFontProtocols.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,9 +73,7 @@
 				2FB17FCD1FE76D8B00E1C0C3 /* UIImage+Extensions.swift */,
 				2FC295C31FEA442200318A58 /* UIBarButtonItem+Extensions.swift */,
 				2FB17FCF1FE76DE500E1C0C3 /* UILabel+Extensions.swift */,
-				2FC295C71FEA56AE00318A58 /* UIImageView+Extensions.swift */,
 				2FC295C91FEA595700318A58 /* UIButton+Extensions.swift */,
-				2FC295CB1FEA5B7F00318A58 /* UITabBarItem+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -95,12 +89,9 @@
 		2FB17FD61FE8F89400E1C0C3 /* Example */ = {
 			isa = PBXGroup;
 			children = (
-				2FB17FDA1FE8F94500E1C0C3 /* CustomIconFont.swift */,
-				2FB17FD31FE8EB0300E1C0C3 /* EnumUtils.swift */,
-				2FDC1D6C1FE3C0C400BD86B8 /* AppDelegate.swift */,
-				2FDC1D6E1FE3C0C400BD86B8 /* ViewController.swift */,
-				2FC295C51FEA48C600318A58 /* UIExampleViewController.swift */,
-				2FDC1D701FE3C0C400BD86B8 /* Main.storyboard */,
+				2FC295D11FECACC100318A58 /* CustomIconFont */,
+				2FC295D21FECACCE00318A58 /* ViewController */,
+				2FC295D31FECACDA00318A58 /* Other */,
 			);
 			path = Example;
 			sourceTree = "<group>";
@@ -111,6 +102,35 @@
 				2FB17FD81FE8F91700E1C0C3 /* FontAwesome.ttf */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		2FC295D11FECACC100318A58 /* CustomIconFont */ = {
+			isa = PBXGroup;
+			children = (
+				2FC295D41FECAE0F00318A58 /* iconfont.ttf */,
+				2FB17FDA1FE8F94500E1C0C3 /* CustomIconFont.swift */,
+			);
+			path = CustomIconFont;
+			sourceTree = "<group>";
+		};
+		2FC295D21FECACCE00318A58 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2FDC1D6E1FE3C0C400BD86B8 /* ViewController.swift */,
+				2FC295C51FEA48C600318A58 /* UIExampleViewController.swift */,
+				2FC295D61FECAEEE00318A58 /* ShowIconViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		2FC295D31FECACDA00318A58 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				2FB17FD31FE8EB0300E1C0C3 /* EnumUtils.swift */,
+				2FDC1D6C1FE3C0C400BD86B8 /* AppDelegate.swift */,
+				2FDC1D701FE3C0C400BD86B8 /* Main.storyboard */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 		2FDC1D601FE3C0C300BD86B8 = {
@@ -143,7 +163,6 @@
 		2FDC1D7E1FE3C0CD00BD86B8 /* SupportFiles */ = {
 			isa = PBXGroup;
 			children = (
-				2FB17FDE1FE8FCB100E1C0C3 /* iconfont.ttf */,
 				2FDC1D731FE3C0C400BD86B8 /* Assets.xcassets */,
 				2FDC1D751FE3C0C400BD86B8 /* LaunchScreen.storyboard */,
 				2FDC1D781FE3C0C400BD86B8 /* Info.plist */,
@@ -157,7 +176,6 @@
 				2FB17FD51FE8EB9C00E1C0C3 /* Protocols */,
 				2FB17FD21FE7B70B00E1C0C3 /* Extensions */,
 				2FB17FD11FE7B6FC00E1C0C3 /* IconFonts */,
-				2FDC1D801FE3C4AD00BD86B8 /* IconFont.swift */,
 			);
 			path = Code;
 			sourceTree = "<group>";
@@ -224,7 +242,7 @@
 				2FDC1D771FE3C0C400BD86B8 /* LaunchScreen.storyboard in Resources */,
 				2FDC1D741FE3C0C400BD86B8 /* Assets.xcassets in Resources */,
 				2FDC1D721FE3C0C400BD86B8 /* Main.storyboard in Resources */,
-				2FB17FDF1FE8FCB100E1C0C3 /* iconfont.ttf in Resources */,
+				2FC295D51FECAE0F00318A58 /* iconfont.ttf in Resources */,
 				2FB17FD91FE8F91700E1C0C3 /* FontAwesome.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -237,13 +255,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FDC1D6F1FE3C0C400BD86B8 /* ViewController.swift in Sources */,
-				2FDC1D811FE3C4AD00BD86B8 /* IconFont.swift in Sources */,
 				2FB17FCE1FE76D8B00E1C0C3 /* UIImage+Extensions.swift in Sources */,
 				2FC295C61FEA48C600318A58 /* UIExampleViewController.swift in Sources */,
 				2FB17FD41FE8EB0300E1C0C3 /* EnumUtils.swift in Sources */,
+				2FC295D71FECAEEE00318A58 /* ShowIconViewController.swift in Sources */,
 				2FB17FD01FE76DE500E1C0C3 /* UILabel+Extensions.swift in Sources */,
-				2FC295CC1FEA5B7F00318A58 /* UITabBarItem+Extensions.swift in Sources */,
-				2FC295C81FEA56AE00318A58 /* UIImageView+Extensions.swift in Sources */,
 				2FDC1D6D1FE3C0C400BD86B8 /* AppDelegate.swift in Sources */,
 				2FB17FCC1FE760C200E1C0C3 /* FontAwesome.swift in Sources */,
 				2FB17FDB1FE8F94500E1C0C3 /* CustomIconFont.swift in Sources */,

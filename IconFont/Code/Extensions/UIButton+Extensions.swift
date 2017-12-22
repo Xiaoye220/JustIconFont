@@ -9,12 +9,11 @@
 import Foundation
 import UIKit
 
-extension UIButton: IconFontViewType {
+extension UIButton: IconFontExtensionsType {
     
     public func iconFont(size fontSize: CGFloat, icon: IconFontType, color: UIColor? = nil) {
-        let attributes = self.attributes(size: fontSize, icon: icon, color: color)
-        let title = NSAttributedString.init(string: icon.unicode, attributes: attributes)
-        setAttributedTitle(title, for: .normal)
+        let attributedString = self.attributedString(size: fontSize, icon: icon, color: color)
+        self.setAttributedTitle(attributedString, for: .normal)
     }
     
 }

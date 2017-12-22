@@ -22,6 +22,9 @@ extension FontAwesome: IconFontType {
 }
 
 
+/// FontAwesome
+///
+///     http://fontawesome.io/icons/
 public enum FontAwesome: String {
     case _500px
     case addressbook
