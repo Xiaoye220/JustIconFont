@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-extension UIImage: IconFontExtensionsType {
+extension UIImage {
     
     public static func iconFont(fontSize: CGFloat, icon: IconFontType, color: UIColor? = nil) -> UIImage {
         var attributes = [NSAttributedStringKey: Any]()

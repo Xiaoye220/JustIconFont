@@ -73,7 +73,7 @@ extension IconFontExtensionsType {
 }
 
 extension UIFont {
-    public convenience init?(iconFont iconFontType: IconFontType, size fontSize: CGFloat) {
+    convenience init?(iconFont iconFontType: IconFontType, size fontSize: CGFloat) {
         if !iconFontType.loadFont() { return nil }
         self.init(name: iconFontType.fontName, size: fontSize)
     }
