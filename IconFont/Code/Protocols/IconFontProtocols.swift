@@ -11,6 +11,8 @@ import UIKit
 
 
 public protocol IconFontType {
+    
+    /// fontName is not necessarily equal to .ttf file name
     static var fontName: String { get }
     
     static var fontFilePath: String? { get set }
@@ -49,7 +51,7 @@ extension IconFontType {
 }
 
 
-public protocol IconFontExtensionsType {
+protocol IconFontExtensionsType {
 
 }
 
