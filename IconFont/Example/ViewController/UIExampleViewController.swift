@@ -21,6 +21,11 @@ class UIExampleViewController: UIViewController {
     @IBOutlet weak var imageView2: UIImageView!
     @IBOutlet weak var barButtonItem2: UIBarButtonItem!
     
+    @IBOutlet weak var customIconFont1: UILabel!
+    @IBOutlet weak var customIconFont2: UILabel!
+    @IBOutlet weak var customIconFont3: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -29,7 +34,7 @@ class UIExampleViewController: UIViewController {
         setImageView()
         setButton()
         setTabBarItem()
-        
+        setCustomIconFont()
     }
 
     override func didReceiveMemoryWarning() {
@@ -69,5 +74,11 @@ class UIExampleViewController: UIViewController {
         rightTabBarItem.image = UIImage.iconFont(fontSize: 25, icon: FontAwesome.firefox)
         rightTabBarItem.selectedImage = UIImage.iconFont(fontSize: 25, icon: FontAwesome.firefox, color: #colorLiteral(red: 0.9254902005, green: 0.2352941185, blue: 0.1019607857, alpha: 1)).withRenderingMode(.alwaysOriginal)
         rightTabBarItem.title = FontAwesome.firefox.rawValue
+    }
+    
+    func setCustomIconFont() {
+        customIconFont1.iconFont(size: 25, icon: CustomIconFont.clock, color: #colorLiteral(red: 0.9098039269, green: 0.4784313738, blue: 0.6431372762, alpha: 1))
+        customIconFont2.iconFont(size: 30, icon: CustomIconFont.feedback, color: #colorLiteral(red: 0.8549019694, green: 0.250980407, blue: 0.4784313738, alpha: 1))
+        customIconFont3.iconFont(size: 35, icon: CustomIconFont.shoppingCart, color: #colorLiteral(red: 0.8078431487, green: 0.02745098062, blue: 0.3333333433, alpha: 1))
     }
 }
