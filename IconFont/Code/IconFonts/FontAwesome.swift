@@ -8,9 +8,11 @@
 
 import Foundation
 
+class EmptyClass{}
+
 extension FontAwesome: IconFontType {
     
-    public static var fontFilePath: String? = Bundle.main.path(forResource: "FontAwesome", ofType: "ttf")
+    public static var fontFilePath: String? = Bundle(for: EmptyClass.self).path(forResource: "FontAwesome", ofType: "ttf")
     
     static public var fontName: String {
         return "FontAwesome"
@@ -20,7 +22,6 @@ extension FontAwesome: IconFontType {
         return fontAwesomeIconDict[self.rawValue]!
     }
 }
-
 
 /// FontAwesome
 ///
