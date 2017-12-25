@@ -25,7 +25,7 @@ pod 'YFIconFont'
 label.iconFont(size: 25, icon: FontAwesome.github)
 ```
 
-#### UIButtom
+#### UIButton
 
 ```swift
 button.iconFont(size: 30, icon: FontAwesome.weixin, color: color)
@@ -34,7 +34,7 @@ button.iconFont(size: 30, icon: FontAwesome.weixin, color: color)
 #### UIImage
 
 UIImage 有两种创建方式，一种是使用 fontSize，一种使用 imageSize
-因为有一些 Icon 不是正方形的（如以下 visa 图标），那么使用 fontSize 创建的 image 就是长方形的。如果想创建指定 size 的 image，需要使用 imageSize 创建，icon 会根据 scaleAspectFit 规则填充到指定 imageSize 的 image 中
+因为有一些 Icon 不是正方形的（如上方 visa 图标），那么使用 fontSize 创建的 image 就是长方形的。如果想创建指定 size 的 image，需要使用 imageSize 创建，icon 会根据 scaleAspectFit 规则填充到指定 imageSize 的 image 中
 
 ```swift
 // UIImage size is 39 * 30
