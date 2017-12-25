@@ -36,6 +36,7 @@ button.iconFont(size: 30, icon: FontAwesome.weixin, color: color)
 #### UIImage
 
 UIImage 有两种创建方式，一种是使用 fontSize，一种使用 imageSize
+
 因为有一些 Icon 不是正方形的（如上方 visa 图标），那么使用 fontSize 创建的 image 就是长方形的。如果想创建指定 size 的 image，需要使用 imageSize 创建，icon 会根据 scaleAspectFit 规则填充到指定 imageSize 的 image 中
 > We can create UIImage with fontSize or imageSize.One is created according to the size of the font. Another is created according to the size of the image.
 
@@ -50,6 +51,7 @@ imageView2.image = UIImage.iconFont(imageSize: CGSize(width: 30, height: 30), ic
 #### UIBarButtonItem
 
 UIBarButtonItem 可以设置 icon 到 image 或者 title ，因此需要指定类型。
+
 将 UIBarButtonItem.title 设置为 icon ，看起来效果会略往上偏移
 > UIBarButtonItem needs to specify the type is image or title.
 
