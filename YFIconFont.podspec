@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "YFIconFont"
-  s.version      = "4.0.0"
+  s.version      = "4.2.0"
   s.summary      = "IconFont"
 
   # This description is used to generate tags and improve search results.
