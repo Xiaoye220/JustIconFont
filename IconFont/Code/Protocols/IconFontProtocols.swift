@@ -56,11 +56,11 @@ protocol IconFontExtensionsType {
 }
 
 extension IconFontExtensionsType {
-    func attributes(size fontSize: CGFloat, icon: IconFontType, color: UIColor?) -> [NSAttributedStringKey: Any] {
-        var attributes = [NSAttributedStringKey: Any]()
-        attributes[NSAttributedStringKey.font] = UIFont(iconFont: icon, size: fontSize)
+    func attributes(size fontSize: CGFloat, icon: IconFontType, color: UIColor?) -> [NSAttributedString.Key: Any] {
+        var attributes = [NSAttributedString.Key: Any]()
+        attributes[NSAttributedString.Key.font] = UIFont(iconFont: icon, size: fontSize)
         if let color = color {
-            attributes[NSAttributedStringKey.foregroundColor] = color
+            attributes[NSAttributedString.Key.foregroundColor] = color
         }
         
         return attributes

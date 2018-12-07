@@ -12,10 +12,10 @@ import UIKit
 extension UIImage {
     
     public static func iconFont(fontSize: CGFloat, icon: IconFontType, color: UIColor? = nil) -> UIImage {
-        var attributes = [NSAttributedStringKey: Any]()
-        attributes[NSAttributedStringKey.font] = UIFont(iconFont: icon, size: fontSize)
+        var attributes = [NSAttributedString.Key: Any]()
+        attributes[NSAttributedString.Key.font] = UIFont(iconFont: icon, size: fontSize)
         if let color = color {
-            attributes[NSAttributedStringKey.foregroundColor] = color
+            attributes[NSAttributedString.Key.foregroundColor] = color
         }
         let attributedString = NSAttributedString(string: icon.unicode, attributes: attributes)
         
@@ -33,10 +33,10 @@ extension UIImage {
     }
 
     public static func iconFont(imageSize: CGSize, icon: IconFontType, color: UIColor? = nil) -> UIImage {
-        var attributes = [NSAttributedStringKey: Any]()
-        attributes[NSAttributedStringKey.font] = UIFont(iconFont: icon, size: 1)
+        var attributes = [NSAttributedString.Key: Any]()
+        attributes[NSAttributedString.Key.font] = UIFont(iconFont: icon, size: 1)
         if let color = color {
-            attributes[NSAttributedStringKey.foregroundColor] = color
+            attributes[NSAttributedString.Key.foregroundColor] = color
         }
         var attributedString = NSAttributedString(string: icon.unicode, attributes: attributes)
         
@@ -61,7 +61,7 @@ extension UIImage {
         anchorRect.size.width = scaledWidth
         anchorRect.size.height = scaledHeight
         
-        attributes[NSAttributedStringKey.font] = UIFont(iconFont: icon, size: scale)
+        attributes[NSAttributedString.Key.font] = UIFont(iconFont: icon, size: scale)
         attributedString = NSAttributedString(string: icon.unicode, attributes: attributes)
         
         UIGraphicsBeginImageContextWithOptions(imageSize, false, UIScreen.main.scale)
