@@ -15,7 +15,7 @@
 		8E5B7C2621FC57BA00D10F31 /* UIExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5B7C2021FC57BA00D10F31 /* UIExampleViewController.swift */; };
 		8E5B7C2721FC57BA00D10F31 /* ShowIconViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5B7C2121FC57BA00D10F31 /* ShowIconViewController.swift */; };
 		8E5B7C2821FC57BA00D10F31 /* iconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E5B7C2321FC57BA00D10F31 /* iconfont.ttf */; };
-		8E5B7C2921FC57BA00D10F31 /* CustomIconFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5B7C2421FC57BA00D10F31 /* CustomIconFont.swift */; };
+		8E5B7C2921FC57BA00D10F31 /* MyIconFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5B7C2421FC57BA00D10F31 /* MyIconFont.swift */; };
 		B5580B406051F931134F863D /* Pods_IconFont_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F2DC0B6C03D603A5C8B0AAE /* Pods_IconFont_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,7 +34,7 @@
 		8E5B7C2021FC57BA00D10F31 /* UIExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIExampleViewController.swift; sourceTree = "<group>"; };
 		8E5B7C2121FC57BA00D10F31 /* ShowIconViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowIconViewController.swift; sourceTree = "<group>"; };
 		8E5B7C2321FC57BA00D10F31 /* iconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont.ttf; sourceTree = "<group>"; };
-		8E5B7C2421FC57BA00D10F31 /* CustomIconFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomIconFont.swift; sourceTree = "<group>"; };
+		8E5B7C2421FC57BA00D10F31 /* MyIconFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyIconFont.swift; sourceTree = "<group>"; };
 		B033A3A06AAF905E5D7965A0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B48FC2785C7CBA0E109FA22F /* Pods-IconFont_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IconFont_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IconFont_Tests/Pods-IconFont_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C87CB3EBE98F2596E578B1FF /* Pods-IconFont_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IconFont_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IconFont_Tests/Pods-IconFont_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -97,7 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				8E5B7C2221FC57BA00D10F31 /* CustomIconFont */,
+				8E5B7C2221FC57BA00D10F31 /* MyIconFont */,
 				8E5B7C1E21FC57BA00D10F31 /* ViewController */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
@@ -136,13 +136,13 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
-		8E5B7C2221FC57BA00D10F31 /* CustomIconFont */ = {
+		8E5B7C2221FC57BA00D10F31 /* MyIconFont */ = {
 			isa = PBXGroup;
 			children = (
 				8E5B7C2321FC57BA00D10F31 /* iconfont.ttf */,
-				8E5B7C2421FC57BA00D10F31 /* CustomIconFont.swift */,
+				8E5B7C2421FC57BA00D10F31 /* MyIconFont.swift */,
 			);
-			path = CustomIconFont;
+			path = MyIconFont;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,7 +270,7 @@
 				8E5B7C2721FC57BA00D10F31 /* ShowIconViewController.swift in Sources */,
 				8E5B7C2621FC57BA00D10F31 /* UIExampleViewController.swift in Sources */,
 				8E5B7C2521FC57BA00D10F31 /* ViewController.swift in Sources */,
-				8E5B7C2921FC57BA00D10F31 /* CustomIconFont.swift in Sources */,
+				8E5B7C2921FC57BA00D10F31 /* MyIconFont.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

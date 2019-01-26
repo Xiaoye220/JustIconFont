@@ -35,7 +35,7 @@ class ShowIconViewController: UIViewController {
         case .FontAwesome:
             icons = FontAwesome.allCases
         case .custom:
-            icons = CustomIconFont.allCases
+            icons = MyIconFont.allCases
         }
         
     }

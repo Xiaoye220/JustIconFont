@@ -72,7 +72,7 @@ fontName：The fully specified name of the font. This name incorporates both the
 
 ### Create
 ```swift
-public enum CustomIconFont: String {
+public enum MyIconFont: String {
     case feedback = "\u{e656}"
     case search = "\u{e651}"
     case home = "\u{e64f}"
@@ -96,8 +96,8 @@ extension CustomIconFont: IconFontType {
 ```
 ### Usage
 ```swift
-label1.iconFont(size: 25, icon: CustomIconFont.clock, color:color)
-label2.iconFont(size: 30, icon: CustomIconFont.feedback, color: color)
-label3.iconFont(size: 35, icon: CustomIconFont.shoppingCart, color: color)
+label1.iconFont(size: 25, icon: MyIconFont.clock, color: color)
+label2.iconFont(size: 30, icon: MyIconFont.feedback, color: color)
+label3.iconFont(size: 35, icon: MyIconFont.shoppingCart, color: color)
 ```
 

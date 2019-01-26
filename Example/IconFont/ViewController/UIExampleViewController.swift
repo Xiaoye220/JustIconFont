@@ -78,8 +78,8 @@ class UIExampleViewController: UIViewController {
     }
     
     func setCustomIconFont() {
-        customIconFont1.iconFont(size: 25, icon: CustomIconFont.clock, color: #colorLiteral(red: 0.9098039269, green: 0.4784313738, blue: 0.6431372762, alpha: 1))
-        customIconFont2.iconFont(size: 30, icon: CustomIconFont.feedback, color: #colorLiteral(red: 0.8549019694, green: 0.250980407, blue: 0.4784313738, alpha: 1))
-        customIconFont3.iconFont(size: 35, icon: CustomIconFont.shoppingCart, color: #colorLiteral(red: 0.8078431487, green: 0.02745098062, blue: 0.3333333433, alpha: 1))
+        customIconFont1.iconFont(size: 25, icon: MyIconFont.clock, color: #colorLiteral(red: 0.9098039269, green: 0.4784313738, blue: 0.6431372762, alpha: 1))
+        customIconFont2.iconFont(size: 30, icon: MyIconFont.feedback, color: #colorLiteral(red: 0.8549019694, green: 0.250980407, blue: 0.4784313738, alpha: 1))
+        customIconFont3.iconFont(size: 35, icon: MyIconFont.shoppingCart, color: #colorLiteral(red: 0.8078431487, green: 0.02745098062, blue: 0.3333333433, alpha: 1))
     }
 }

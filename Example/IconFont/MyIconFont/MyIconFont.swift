@@ -9,7 +9,7 @@
 import Foundation
 import JustIconFont
 
-public enum CustomIconFont: String {
+public enum MyIconFont: String {
     case feedback = "\u{e656}"
     case search = "\u{e651}"
     case home = "\u{e64f}"
@@ -18,7 +18,7 @@ public enum CustomIconFont: String {
     case shoppingCart = "\u{e63f}"
 }
 
-extension CustomIconFont: IconFontType, CaseIterable {
+extension MyIconFont: IconFontType, CaseIterable {
 
     public static var fontFilePath: String? = Bundle.main.path(forResource: "iconfont", ofType: "ttf")    
     
