@@ -16,16 +16,13 @@ Pod::Spec.new do |s|
                    DESC
 
   s.homepage     = 'https://github.com/Xiaoye220/IconFont'
-
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
+  s.author       = { 'Xiaoye__220' => '576934532@qq.com' }
 
-  s.author             = { 'Xiaoye__220' => '576934532@qq.com' }
+  s.source       = { :git => 'https://github.com/Xiaoye220/IconFont.git', :tag => s.version.to_s }
+
 
   s.ios.deployment_target = '8.0'
-
-
-  s.source       = { :git => 'https://github.com/Xiaoye220/IconFont.git', :tag => '#{s.version}' }
-
 
   s.default_subspec = 'Core'
 

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import JustIconFont
 
 class UIExampleViewController: UIViewController {
 

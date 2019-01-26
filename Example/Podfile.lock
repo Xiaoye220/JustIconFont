@@ -4,16 +4,16 @@ PODS:
     - JustIconFont/Core
 
 DEPENDENCIES:
-  - JustIconFont/Core (from `../`)
-  - JustIconFont/FontAwesome (from `../`)
+  - JustIconFont/Core
+  - JustIconFont/FontAwesome
 
-EXTERNAL SOURCES:
-  JustIconFont:
-    :path: "../"
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - JustIconFont
 
 SPEC CHECKSUMS:
-  JustIconFont: 277fbb549eb3b972cf5c2df894a0952f59c9cd41
+  JustIconFont: de22baba4111d65683a5b0b126997cbc2e3f7dbd
 
-PODFILE CHECKSUM: 7033b8ea327958899a875827e2ef61f1bb0740a1
+PODFILE CHECKSUM: 983a7df553d8b8bc373910d314b8e413bcc9ad76
 
 COCOAPODS: 1.5.3

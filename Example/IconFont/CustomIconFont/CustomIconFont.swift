@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import JustIconFont
 
 public enum CustomIconFont: String {
     case feedback = "\u{e656}"

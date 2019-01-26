@@ -12,9 +12,6 @@ Use iconfont by Enum.Only support FontAwesome and custom iconfont currently(you 
 ```
 use_frameworks!
 pod 'JustIconFont'
-
-# support to FontAwesome
-pod 'JustIconFont/FontAwesome'
 ```
 
 ## Usage

@@ -10,12 +10,12 @@
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		8E5B7C0E21FC522E00D10F31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5B7C0421FC522E00D10F31 /* ViewController.swift */; };
-		8E5B7C0F21FC522E00D10F31 /* UIExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5B7C0521FC522E00D10F31 /* UIExampleViewController.swift */; };
-		8E5B7C1021FC522E00D10F31 /* ShowIconViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5B7C0621FC522E00D10F31 /* ShowIconViewController.swift */; };
-		8E5B7C1321FC522E00D10F31 /* iconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E5B7C0C21FC522E00D10F31 /* iconfont.ttf */; };
-		8E5B7C1421FC522E00D10F31 /* CustomIconFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5B7C0D21FC522E00D10F31 /* CustomIconFont.swift */; };
 		8E5B7C1D21FC542A00D10F31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E5B7C1B21FC542900D10F31 /* Main.storyboard */; };
+		8E5B7C2521FC57BA00D10F31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5B7C1F21FC57BA00D10F31 /* ViewController.swift */; };
+		8E5B7C2621FC57BA00D10F31 /* UIExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5B7C2021FC57BA00D10F31 /* UIExampleViewController.swift */; };
+		8E5B7C2721FC57BA00D10F31 /* ShowIconViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5B7C2121FC57BA00D10F31 /* ShowIconViewController.swift */; };
+		8E5B7C2821FC57BA00D10F31 /* iconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E5B7C2321FC57BA00D10F31 /* iconfont.ttf */; };
+		8E5B7C2921FC57BA00D10F31 /* CustomIconFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5B7C2421FC57BA00D10F31 /* CustomIconFont.swift */; };
 		B5580B406051F931134F863D /* Pods_IconFont_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F2DC0B6C03D603A5C8B0AAE /* Pods_IconFont_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,12 +29,12 @@
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		68CFDF80F7F283282305E1DA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		8E5B7C0421FC522E00D10F31 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8E5B7C0521FC522E00D10F31 /* UIExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIExampleViewController.swift; sourceTree = "<group>"; };
-		8E5B7C0621FC522E00D10F31 /* ShowIconViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowIconViewController.swift; sourceTree = "<group>"; };
-		8E5B7C0C21FC522E00D10F31 /* iconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont.ttf; sourceTree = "<group>"; };
-		8E5B7C0D21FC522E00D10F31 /* CustomIconFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomIconFont.swift; sourceTree = "<group>"; };
 		8E5B7C1C21FC542900D10F31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E5B7C1F21FC57BA00D10F31 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8E5B7C2021FC57BA00D10F31 /* UIExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIExampleViewController.swift; sourceTree = "<group>"; };
+		8E5B7C2121FC57BA00D10F31 /* ShowIconViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowIconViewController.swift; sourceTree = "<group>"; };
+		8E5B7C2321FC57BA00D10F31 /* iconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont.ttf; sourceTree = "<group>"; };
+		8E5B7C2421FC57BA00D10F31 /* CustomIconFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomIconFont.swift; sourceTree = "<group>"; };
 		B033A3A06AAF905E5D7965A0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B48FC2785C7CBA0E109FA22F /* Pods-IconFont_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IconFont_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IconFont_Tests/Pods-IconFont_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C87CB3EBE98F2596E578B1FF /* Pods-IconFont_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IconFont_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IconFont_Tests/Pods-IconFont_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -96,9 +96,9 @@
 		607FACD21AFB9204008FA782 /* Example for IconFont */ = {
 			isa = PBXGroup;
 			children = (
-				8E5B7C0B21FC522E00D10F31 /* CustomIconFont */,
-				8E5B7C0321FC522E00D10F31 /* ViewController */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
+				8E5B7C2221FC57BA00D10F31 /* CustomIconFont */,
+				8E5B7C1E21FC57BA00D10F31 /* ViewController */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
 			name = "Example for IconFont";
@@ -126,25 +126,23 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		8E5B7C0321FC522E00D10F31 /* ViewController */ = {
+		8E5B7C1E21FC57BA00D10F31 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				8E5B7C0421FC522E00D10F31 /* ViewController.swift */,
-				8E5B7C0521FC522E00D10F31 /* UIExampleViewController.swift */,
-				8E5B7C0621FC522E00D10F31 /* ShowIconViewController.swift */,
+				8E5B7C1F21FC57BA00D10F31 /* ViewController.swift */,
+				8E5B7C2021FC57BA00D10F31 /* UIExampleViewController.swift */,
+				8E5B7C2121FC57BA00D10F31 /* ShowIconViewController.swift */,
 			);
-			name = ViewController;
-			path = ../../../../GitHub/IconFont/IconFont/Example/ViewController;
+			path = ViewController;
 			sourceTree = "<group>";
 		};
-		8E5B7C0B21FC522E00D10F31 /* CustomIconFont */ = {
+		8E5B7C2221FC57BA00D10F31 /* CustomIconFont */ = {
 			isa = PBXGroup;
 			children = (
-				8E5B7C0C21FC522E00D10F31 /* iconfont.ttf */,
-				8E5B7C0D21FC522E00D10F31 /* CustomIconFont.swift */,
+				8E5B7C2321FC57BA00D10F31 /* iconfont.ttf */,
+				8E5B7C2421FC57BA00D10F31 /* CustomIconFont.swift */,
 			);
-			name = CustomIconFont;
-			path = ../../../../GitHub/IconFont/IconFont/Example/CustomIconFont;
+			path = CustomIconFont;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,9 +206,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E5B7C2821FC57BA00D10F31 /* iconfont.ttf in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
-				8E5B7C1321FC522E00D10F31 /* iconfont.ttf in Resources */,
 				8E5B7C1D21FC542A00D10F31 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,10 +267,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E5B7C1421FC522E00D10F31 /* CustomIconFont.swift in Sources */,
-				8E5B7C0E21FC522E00D10F31 /* ViewController.swift in Sources */,
-				8E5B7C0F21FC522E00D10F31 /* UIExampleViewController.swift in Sources */,
-				8E5B7C1021FC522E00D10F31 /* ShowIconViewController.swift in Sources */,
+				8E5B7C2721FC57BA00D10F31 /* ShowIconViewController.swift in Sources */,
+				8E5B7C2621FC57BA00D10F31 /* UIExampleViewController.swift in Sources */,
+				8E5B7C2521FC57BA00D10F31 /* ViewController.swift in Sources */,
+				8E5B7C2921FC57BA00D10F31 /* CustomIconFont.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
