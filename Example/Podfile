@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'IconFont_Example' do
+  pod 'JustIconFont/Core', :path => '../'
+  pod 'JustIconFont/FontAwesome', :path => '../'
+
+  target 'IconFont_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

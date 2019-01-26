@@ -30,12 +30,12 @@ Pod::Spec.new do |s|
   s.default_subspec = 'Core'
 
   s.subspec 'Core' do |sp|
-    sp.source_files = 'IconFont/Code/*/*'
+    sp.source_files = 'IconFont/Classes/Code/*/*'
   end
 
   s.subspec 'FontAwesome' do |sp|
-    sp.source_files = 'IconFont/FontAwesome/*'
-    sp.resources = 'IconFont/FontAwesome/Resources/*.ttf'
+    sp.source_files = 'IconFont/Classes/FontAwesome/*'
+    sp.resources = 'IconFont/Assets/FontAwesome/*.ttf'
     sp.dependency 'JustIconFont/Core'
   end
 

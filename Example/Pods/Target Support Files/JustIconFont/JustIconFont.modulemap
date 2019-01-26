@@ -1,0 +1,6 @@
+framework module JustIconFont {
+  umbrella header "JustIconFont-umbrella.h"
+
+  export *
+  module * { export * }
+}

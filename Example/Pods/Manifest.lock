@@ -1,0 +1,19 @@
+PODS:
+  - JustIconFont/Core (4.2.1)
+  - JustIconFont/FontAwesome (4.2.1):
+    - JustIconFont/Core
+
+DEPENDENCIES:
+  - JustIconFont/Core (from `../`)
+  - JustIconFont/FontAwesome (from `../`)
+
+EXTERNAL SOURCES:
+  JustIconFont:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JustIconFont: 277fbb549eb3b972cf5c2df894a0952f59c9cd41
+
+PODFILE CHECKSUM: 7033b8ea327958899a875827e2ef61f1bb0740a1
+
+COCOAPODS: 1.5.3
