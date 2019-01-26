@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
   subspec 'FontAwesome' do |sp|
     sp.source_files = 'IconFont/FontAwesome/*'
     sp.resources = 'IconFont/FontAwesome/Resources/*.ttf'
-    sp.dependency 'JustIcon/Core'
+    sp.dependency 'JustIconFont/Core'
   end
 
   s.framework  = 'UIKit'
