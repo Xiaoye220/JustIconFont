@@ -1,4 +1,4 @@
-![pod](https://img.shields.io/badge/pod-YFIconFont-brightgreen.svg)
+![pod](https://img.shields.io/badge/pod-JustIconFont-brightgreen.svg)
 ![iOS](https://img.shields.io/badge/iOS-8.0-green.svg)
 ![lisence](https://img.shields.io/badge/license-MIT-orange.svg)
 ![swift](https://img.shields.io/badge/swift-4.2.1-red.svg)
@@ -11,7 +11,7 @@ Use iconfont by Enum.Only support FontAwesome and custom iconfont currently(you 
 
 ```
 use_frameworks!
-pod 'YFIconFont'
+pod 'JustIconFont'
 ```
 
 ## Usage
