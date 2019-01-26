@@ -10,7 +10,7 @@ import Foundation
 
 class EmptyClass{}
 
-extension FontAwesome: IconFontType {
+extension FontAwesome: IconFontType, CaseIterable {
     
     public static var fontFilePath: String? = Bundle(for: EmptyClass.self).path(forResource: "FontAwesome", ofType: "ttf")
     

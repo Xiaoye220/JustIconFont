@@ -32,10 +32,11 @@ class ShowIconViewController: UIViewController {
 
         switch iconFont! {
         case .FontAwesome:
-            icons = Array(EnumUtils.iterateEnum(FontAwesome.self))
+            icons = FontAwesome.allCases
         case .custom:
-            icons = Array(EnumUtils.iterateEnum(CustomIconFont.self))
+            icons = CustomIconFont.allCases
         }
+        
     }
 
     override func didReceiveMemoryWarning() {

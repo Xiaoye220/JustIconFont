@@ -17,7 +17,7 @@ public enum CustomIconFont: String {
     case shoppingCart = "\u{e63f}"
 }
 
-extension CustomIconFont: IconFontType {
+extension CustomIconFont: IconFontType, CaseIterable {
 
     public static var fontFilePath: String? = Bundle.main.path(forResource: "iconfont", ofType: "ttf")    
     
@@ -29,3 +29,4 @@ extension CustomIconFont: IconFontType {
         return self.rawValue
     }
 }
+
