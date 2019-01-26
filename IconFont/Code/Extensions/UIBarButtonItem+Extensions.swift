@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-extension UIBarButtonItem: IconFontExtensionsType {
+extension UIBarButtonItem: AttributedTextType {
     
     public enum UIBarButtonItemIconType {
         case title

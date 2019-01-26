@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-extension UIButton: IconFontExtensionsType {
+extension UIButton: AttributedTextType {
     
     public func iconFont(size fontSize: CGFloat, icon: IconFontType, color: UIColor? = nil) {
         let attributedString = self.attributedString(size: fontSize, icon: icon, color: color)

@@ -51,11 +51,9 @@ extension IconFontType {
 }
 
 
-protocol IconFontExtensionsType {
+protocol AttributedTextType {}
 
-}
-
-extension IconFontExtensionsType {
+extension AttributedTextType {
     func attributes(size fontSize: CGFloat, icon: IconFontType, color: UIColor?) -> [NSAttributedString.Key: Any] {
         var attributes = [NSAttributedString.Key: Any]()
         attributes[NSAttributedString.Key.font] = UIFont(iconFont: icon, size: fontSize)
