@@ -57,12 +57,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2FB17FD11FE7B6FC00E1C0C3 /* IconFonts */ = {
+		2FB17FD11FE7B6FC00E1C0C3 /* FontAwesome */ = {
 			isa = PBXGroup;
 			children = (
 				2FB17FCB1FE760C200E1C0C3 /* FontAwesome.swift */,
+				2FB17FD71FE8F8F700E1C0C3 /* Resources */,
 			);
-			path = IconFonts;
+			path = FontAwesome;
 			sourceTree = "<group>";
 		};
 		2FB17FD21FE7B70B00E1C0C3 /* Extensions */ = {
@@ -149,7 +150,7 @@
 		2FDC1D6B1FE3C0C300BD86B8 /* IconFont */ = {
 			isa = PBXGroup;
 			children = (
-				2FB17FD71FE8F8F700E1C0C3 /* Resources */,
+				2FB17FD11FE7B6FC00E1C0C3 /* FontAwesome */,
 				2FDC1D7F1FE3C0E800BD86B8 /* Code */,
 				2FB17FD61FE8F89400E1C0C3 /* Example */,
 				2FDC1D7E1FE3C0CD00BD86B8 /* SupportFiles */,
@@ -172,7 +173,6 @@
 			children = (
 				2FB17FD51FE8EB9C00E1C0C3 /* Protocols */,
 				2FB17FD21FE7B70B00E1C0C3 /* Extensions */,
-				2FB17FD11FE7B6FC00E1C0C3 /* IconFonts */,
 			);
 			path = Code;
 			sourceTree = "<group>";
