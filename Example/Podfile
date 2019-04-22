@@ -1,6 +1,9 @@
 use_frameworks!
 
-target 'IconFont_Example' do
-  pod 'JustIconFont/Core', :path => '../'
+platform :ios,'8.0'
+
+target 'JustIconFont_Example' do
+  pod 'JustIconFont', :path => '../'
   pod 'JustIconFont/FontAwesome', :path => '../'
+
 end

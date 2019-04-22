@@ -9,30 +9,30 @@
 Pod::Spec.new do |s|
 
   s.name         = 'JustIconFont'
-  s.version      = '4.2.1'
-  s.summary      = 'IconFont'
+  s.version      = '5.0.0'
+  s.summary      = 'JustIconFont'
   s.description  = <<-DESC
                     IconFont use with enum
                    DESC
 
-  s.homepage     = 'https://github.com/Xiaoye220/IconFont'
+  s.homepage     = 'https://github.com/Xiaoye220/JustIconFont'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { 'Xiaoye__220' => '576934532@qq.com' }
 
-  s.source       = { :git => 'https://github.com/Xiaoye220/IconFont.git', :tag => s.version.to_s }
-
+  s.source       = { :git => 'https://github.com/Xiaoye220/JustIconFont.git', :tag => s.version.to_s }
+  s.swift_versions = '5.0'
 
   s.ios.deployment_target = '8.0'
 
   s.default_subspec = 'Core'
 
   s.subspec 'Core' do |sp|
-    sp.source_files = 'IconFont/Classes/Code/*/*'
+    sp.source_files = 'JustIconFont/Classes/Code/**/*'
   end
 
   s.subspec 'FontAwesome' do |sp|
-    sp.source_files = 'IconFont/Classes/FontAwesome/*'
-    sp.resources = 'IconFont/Assets/FontAwesome/*.ttf'
+    sp.source_files = 'JustIconFont/Classes/FontAwesome/*'
+    sp.resources = 'JustIconFont/Assets/FontAwesome/*.ttf'
     sp.dependency 'JustIconFont/Core'
   end
 

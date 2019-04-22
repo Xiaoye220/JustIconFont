@@ -1,9 +1,9 @@
 {
   "name": "JustIconFont",
-  "version": "4.2.1",
-  "summary": "IconFont",
+  "version": "5.0.0",
+  "summary": "JustIconFont",
   "description": "IconFont use with enum",
-  "homepage": "https://github.com/Xiaoye220/IconFont",
+  "homepage": "https://github.com/Xiaoye220/JustIconFont",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -11,24 +11,25 @@
   "authors": {
     "Xiaoye__220": "576934532@qq.com"
   },
+  "source": {
+    "git": "https://github.com/Xiaoye220/JustIconFont.git",
+    "tag": "5.0.0"
+  },
+  "swift_versions": "5.0",
   "platforms": {
     "ios": "8.0"
-  },
-  "source": {
-    "git": "https://github.com/Xiaoye220/IconFont.git",
-    "tag": "#{s.version}"
   },
   "default_subspecs": "Core",
   "frameworks": "UIKit",
   "subspecs": [
     {
       "name": "Core",
-      "source_files": "IconFont/Classes/Code/*/*"
+      "source_files": "JustIconFont/Classes/Code/**/*"
     },
     {
       "name": "FontAwesome",
-      "source_files": "IconFont/Classes/FontAwesome/*",
-      "resources": "IconFont/Assets/FontAwesome/*.ttf",
+      "source_files": "JustIconFont/Classes/FontAwesome/*",
+      "resources": "JustIconFont/Assets/FontAwesome/*.ttf",
       "dependencies": {
         "JustIconFont/Core": [
 

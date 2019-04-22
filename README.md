@@ -19,7 +19,7 @@ pod 'JustIconFont/FontAwesome'
 
 ## Usage
 
-![ScreenShot](https://github.com/Xiaoye220/IconFont/blob/master/ScreenShot/ScreenShot.png)
+![screenshot](https://github.com/Xiaoye220/IconFont/blob/master/screenshot/screenshot.png)
 
 #### UILabel
 
