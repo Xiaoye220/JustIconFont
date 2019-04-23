@@ -35,6 +35,26 @@
 
         ]
       }
+    },
+    {
+      "name": "Iconic",
+      "source_files": "JustIconFont/Classes/Iconic/*",
+      "resources": "JustIconFont/Assets/Iconic/*.ttf",
+      "dependencies": {
+        "JustIconFont/Core": [
+
+        ]
+      }
+    },
+    {
+      "name": "Ionicons",
+      "source_files": "JustIconFont/Classes/Ionicons/*",
+      "resources": "JustIconFont/Assets/Ionicons/*.ttf",
+      "dependencies": {
+        "JustIconFont/Core": [
+
+        ]
+      }
     }
   ]
 }

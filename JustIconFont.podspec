@@ -36,6 +36,18 @@ Pod::Spec.new do |s|
     sp.dependency 'JustIconFont/Core'
   end
 
+  s.subspec 'Iconic' do |sp|
+    sp.source_files = 'JustIconFont/Classes/Iconic/*'
+    sp.resources = 'JustIconFont/Assets/Iconic/*.ttf'
+    sp.dependency 'JustIconFont/Core'
+  end
+
+  s.subspec 'Ionicons' do |sp|
+    sp.source_files = 'JustIconFont/Classes/Ionicons/*'
+    sp.resources = 'JustIconFont/Assets/Ionicons/*.ttf'
+    sp.dependency 'JustIconFont/Core'
+  end
+
   s.framework  = 'UIKit'
 
 

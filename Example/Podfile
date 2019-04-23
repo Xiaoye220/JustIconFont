@@ -5,5 +5,7 @@ platform :ios,'8.0'
 target 'JustIconFont_Example' do
   pod 'JustIconFont', :path => '../'
   pod 'JustIconFont/FontAwesome', :path => '../'
+  pod 'JustIconFont/Iconic', :path => '../'
+  pod 'JustIconFont/Ionicons', :path => '../'
 
 end

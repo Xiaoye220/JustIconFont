@@ -11,11 +11,11 @@ import Foundation
 extension FontAwesome.Solid: IconFontType, CaseIterable {
 
     public var filePath: String? {
-        return Bundle(for: EmptyClass.self).path(forResource: "fa-solid", ofType: "ttf")
+        return Bundle(for: EmptyClass.self).path(forResource: "FontAwesome-Solid", ofType: "ttf")
     }
 
     public var name: String {
-        return "fa-solid"
+        return "FontAwesome-Solid"
     }
 
     public var unicode: String {
@@ -26,11 +26,11 @@ extension FontAwesome.Solid: IconFontType, CaseIterable {
 extension FontAwesome.Brands: IconFontType, CaseIterable {
     
     public var filePath: String? {
-        return Bundle(for: EmptyClass.self).path(forResource: "fa-brands", ofType: "ttf")
+        return Bundle(for: EmptyClass.self).path(forResource: "FontAwesome-Brands", ofType: "ttf")
     }
     
     public var name: String {
-        return "fa-brands"
+        return "FontAwesome-Brands"
     }
     
     public var unicode: String {
@@ -41,11 +41,11 @@ extension FontAwesome.Brands: IconFontType, CaseIterable {
 extension FontAwesome.Regular: IconFontType, CaseIterable {
     
     public var filePath: String? {
-        return Bundle(for: EmptyClass.self).path(forResource: "fa-regular", ofType: "ttf")
+        return Bundle(for: EmptyClass.self).path(forResource: "FontAwesome-Regular", ofType: "ttf")
     }
     
     public var name: String {
-        return "fa-regular"
+        return "FontAwesome-Regular"
     }
     
     public var unicode: String {
