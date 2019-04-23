@@ -20,7 +20,7 @@ class ShowIconViewController: UIViewController {
     
     var iconFont: IconFont!
     
-    var icons: [MyIconFont] = []
+    var icons: [IconFontType] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,7 +28,7 @@ class ShowIconViewController: UIViewController {
 
         switch iconFont! {
         case .FontAwesome:
-            icons = MyIconFont.allCases
+            icons = FontAwesome.Brands.allCases
         case .custom:
             icons = MyIconFont.allCases
         }

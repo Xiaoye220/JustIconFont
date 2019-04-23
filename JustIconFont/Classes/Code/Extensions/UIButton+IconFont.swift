@@ -11,7 +11,7 @@ import UIKit
 
 extension UIButton {
     
-    public func iconFont<T: IconFontType>(size fontSize: CGFloat, icon: T, color: UIColor? = nil) {
+    public func iconFont(size fontSize: CGFloat, icon: IconFontType, color: UIColor? = nil) {
         let attributedString = NSAttributedString.attributedString(size: fontSize, icon: icon, color: color)
         self.setAttributedTitle(attributedString, for: .normal)
     }

@@ -16,7 +16,7 @@ extension UIBarButtonItem {
         case image
     }
     
-    public func iconFont<T: IconFontType>(size fontSize: CGFloat, icon: T, color: UIColor? = nil, type: UIBarButtonItemIconType = .image) {
+    public func iconFont(size fontSize: CGFloat, icon: IconFontType, color: UIColor? = nil, type: UIBarButtonItemIconType = .image) {
         switch type {
         case .image:
             image = UIImage.iconFont(fontSize: fontSize, icon: icon, color: color)

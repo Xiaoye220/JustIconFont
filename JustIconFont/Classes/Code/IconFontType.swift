@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 
-public protocol IconFontType: RawRepresentable where RawValue == String {
+public protocol IconFontType {
     
     /// fontName is not necessarily equal to .ttf file name
     var name: String { get }
@@ -22,18 +22,15 @@ public protocol IconFontType: RawRepresentable where RawValue == String {
 
 extension IconFontType {
     
-    
-//    init?(rawValue: IconFontType.RawValue) {
-//        self.rawValue = rawValue
-//    }
-    
-//    var filePath: String {
-//        return ""
-//    }
-    
-//    var unicode: String {
-//        return
-//    }
+    var filePath: String? {
+        if let filePath = Bundle.main.path(forResource: name, ofType: "ttf") {
+            return filePath
+        } else if let filePath = Bundle(for: EmptyClass.self).path(forResource: name, ofType: "ttf") {
+            return filePath
+        } else {
+            return nil
+        }
+    }
     
     func loadFont() -> Bool {
         
