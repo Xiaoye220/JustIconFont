@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.author       = { 'Xiaoye__220' => '576934532@qq.com' }
 
   s.source       = { :git => 'https://github.com/Xiaoye220/JustIconFont.git', :tag => s.version.to_s }
-  s.swift_versions = '5.0'
+  s.swift_version = '5.0'
 
   s.ios.deployment_target = '8.0'
 

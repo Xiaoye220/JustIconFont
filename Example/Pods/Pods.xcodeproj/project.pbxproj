@@ -7,29 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E56CA827812D24F134821AC18A1E487 /* Pods-JustIconFont_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E2FBCCE37510558E3C830E31993336D1 /* Pods-JustIconFont_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1BC7C0681744F476E83370569EC55CC5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */; };
+		067E66965FDC0D6F3B1AB72566AF37C6 /* UILabel+IconFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7823A2220FC43ADC8065BE95DEBFD08 /* UILabel+IconFont.swift */; };
+		08330D6ADA779ECE8034D1B8DD258629 /* JustIconFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BBB8A4FFC700FA2D2BD8BFADC93D1D /* JustIconFont.swift */; };
+		0E56CA827812D24F134821AC18A1E487 /* Pods-JustIconFont_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 823672F154C688E30CC8684795AF3EC1 /* Pods-JustIconFont_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18C20A7041F45B414E153943FC84F758 /* UIBarButtonItem+IconFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = F210A0B64003CF07446A8BD70C6B055A /* UIBarButtonItem+IconFont.swift */; };
+		1A6B2903C93C4B0A03BFB2A47603F4CD /* FontAwesome-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 354BB1A818C2C27BAFD59A033D2A1FA4 /* FontAwesome-Regular.ttf */; };
+		1CED506ACF7CA1FD759218C6705CA644 /* NSAttributedString+IconFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3832C3C49E328739346FC44BA73508B5 /* NSAttributedString+IconFont.swift */; };
+		27DD0C5D6C13DA4063C87CA0DD6849DA /* JustIconFont-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3239490EAD9182384DFA4FEFDA5531C3 /* JustIconFont-dummy.m */; };
+		2EB642551B1DBC3F5091BDD89E244111 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */; };
+		3DBBF4D8D0D9700728EFDEBF70CE3E67 /* Iconic.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC809C6607F93E166F1F29AD9852771 /* Iconic.swift */; };
+		3EB19412DF7C6CFBF4ABDD57C7452C41 /* Ionicons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B1768429D35515314739D2D08056EE /* Ionicons.swift */; };
 		5889C4FF97E802F10CFF7AB8C5DB167F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
-		6103C41C83460A8AF6B26A581F20D62E /* JustIconFont-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B2DEB7372E077976551E0DF4A2B29EA2 /* JustIconFont-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6933642B06261B4E4531797C7020CC83 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A4450A1874FF42BF636CF59C8BEF89A /* Ionicons.ttf */; };
-		6EA392DA7617E81DF50AE759C9FB9CC0 /* FontAwesome-Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E99ACF76AC5648B90891BD792C582C0 /* FontAwesome-Solid.ttf */; };
-		78E0C603652C79A9FC76BCAA39EEA4A5 /* Pods-JustIconFont_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 692B7DEE1766AAE3B5FB3085CF62547A /* Pods-JustIconFont_Example-dummy.m */; };
-		78F7E6BF9CD98FC5CCE15FA236FB4A2C /* JustIconFont-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 667E3C0CD2916A5AB81B5E7A00C41715 /* JustIconFont-dummy.m */; };
-		7A235E62A55E6D1271F1C32722052B5F /* FontAwesome-Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9FDE2AEB9632939A0085069F16AD0AF /* FontAwesome-Brands.ttf */; };
-		81CC2C9E27C815DFF3775E0B8562A831 /* UILabel+IconFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7998CF58E26E7B7D3604C25CE1061E /* UILabel+IconFont.swift */; };
-		8730E7DB6F6D6FF8609C3401BA858E8F /* UIImage+IconFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5943EA75AF9ADAFC63AFC890CE41F3 /* UIImage+IconFont.swift */; };
-		92BB04367380485083F20EDF150CA0D6 /* UIButton+IconFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646FFFB4F414F44EE96D5BBC8AB0E71C /* UIButton+IconFont.swift */; };
-		955803017317335AB0356EE1BEE49E63 /* Iconic.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC809C6607F93E166F1F29AD9852771 /* Iconic.swift */; };
-		A342AA066849421E5895D9BC7B8537A1 /* UIBarButtonItem+IconFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AF4B8B0DDBF646C744BC42B0F621FA /* UIBarButtonItem+IconFont.swift */; };
-		A34BD348D4E7B3061448DDFB8F728292 /* IconFontType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3441E19407DD641E3B3C346199DE88AF /* IconFontType.swift */; };
-		BA916A83761CC872E87EE589C7095ACD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
-		BE3491F20D4A75DB35D53D9EBDDF46BF /* FontAwesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B260B175C498BB5E7B8C70F45123D29 /* FontAwesome.swift */; };
-		C352924DFFEC0310B320C1390E6E38D6 /* FontAwesome-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D707A4D6A87FEA37EB26296BDA081DC5 /* FontAwesome-Regular.ttf */; };
-		CD9EC203C0E0E5A9274D2896E134B083 /* JustIconFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6475800185D614CD20A1EC46854F0D /* JustIconFont.swift */; };
-		DC24116F7667AD5CB07598C59BA2B264 /* UIFont+IconFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD369D328FBA7D57552D5B6EEB120A9 /* UIFont+IconFont.swift */; };
-		EF2FF4240380C02CBEA8A4AD901A7ECC /* Iconic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0C967B9BDC036816B1CCA0AB7D93477 /* Iconic.ttf */; };
-		F4DC4C7B681DEAAF6F8612B3484C94EC /* NSAttributedString+IconFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DA15584432D769E08AB615BDD75335 /* NSAttributedString+IconFont.swift */; };
-		F6E955F3A4361C5A0C188375DD84FAFA /* Ionicons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B1768429D35515314739D2D08056EE /* Ionicons.swift */; };
+		78E0C603652C79A9FC76BCAA39EEA4A5 /* Pods-JustIconFont_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF7F6E11B87A4F006E3E746FF80B00A /* Pods-JustIconFont_Example-dummy.m */; };
+		8597A53AAABE91F1338A3731683A45BA /* JustIconFont-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D99F391A29C5F64DED4C16D0EC2B9BB /* JustIconFont-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C8839EFAC42F593B4879C4CDAE8AA7B /* IconFontType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4BA715913EE19019B32E30C703B539 /* IconFontType.swift */; };
+		9EA4C893B202A6E835B78319152CB4C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
+		AEAC37BAE77F6DD0769D7CCAA3607BF9 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A4450A1874FF42BF636CF59C8BEF89A /* Ionicons.ttf */; };
+		BF37077048CFFC5DE432E874F5C9EC38 /* UIImage+IconFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37CAFC40ADBC17E5B73816A7C17446E /* UIImage+IconFont.swift */; };
+		C5C4B076462E916CAF98EBD7D674D7DE /* Iconic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0C967B9BDC036816B1CCA0AB7D93477 /* Iconic.ttf */; };
+		CE0E98A242B62E603AD1111560EB7927 /* UIButton+IconFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06D84424EC8C4422B272145582F6FBF /* UIButton+IconFont.swift */; };
+		D19C975451494890C81801E6D710F694 /* FontAwesome-Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D84C39B77305E120A3FAB22F8900454 /* FontAwesome-Brands.ttf */; };
+		FB60F0416BF3CA9ED47A1608D76B4E4D /* UIFont+IconFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CBC10A653A1A48EAB1B4DCECD16178 /* UIFont+IconFont.swift */; };
+		FF058E0013FB43E99156C53373A8D049 /* FontAwesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D924E53E70D2E51AB462C9FAD39319 /* FontAwesome.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,63 +36,53 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 03F23C09F693D36F6389540B5AF21A20;
+			remoteGlobalIDString = 29B763CBD43ADE33C00C0DA4E7C70B82;
 			remoteInfo = JustIconFont;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02635063D3B9BCC9C2C71C6277E90113 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		1E7998CF58E26E7B7D3604C25CE1061E /* UILabel+IconFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UILabel+IconFont.swift"; sourceTree = "<group>"; };
+		02635063D3B9BCC9C2C71C6277E90113 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		153033F7D429CF14CEA399FFB83B7CED /* Pods-JustIconFont_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JustIconFont_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		16CBC10A653A1A48EAB1B4DCECD16178 /* UIFont+IconFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIFont+IconFont.swift"; sourceTree = "<group>"; };
+		1D99F391A29C5F64DED4C16D0EC2B9BB /* JustIconFont-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JustIconFont-umbrella.h"; sourceTree = "<group>"; };
 		20B1768429D35515314739D2D08056EE /* Ionicons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Ionicons.swift; path = JustIconFont/Classes/Ionicons/Ionicons.swift; sourceTree = "<group>"; };
-		2B260B175C498BB5E7B8C70F45123D29 /* FontAwesome.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesome.swift; path = JustIconFont/Classes/FontAwesome/FontAwesome.swift; sourceTree = "<group>"; };
-		3441E19407DD641E3B3C346199DE88AF /* IconFontType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IconFontType.swift; path = JustIconFont/Classes/Code/IconFontType.swift; sourceTree = "<group>"; };
-		3A8B56A82442C391A09EB98B06651175 /* Pods-JustIconFont_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JustIconFont_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		3E5943EA75AF9ADAFC63AFC890CE41F3 /* UIImage+IconFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIImage+IconFont.swift"; sourceTree = "<group>"; };
+		29B1AAF784E67C591065DC5CEDB1DCC6 /* JustIconFont-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JustIconFont-prefix.pch"; sourceTree = "<group>"; };
+		3239490EAD9182384DFA4FEFDA5531C3 /* JustIconFont-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JustIconFont-dummy.m"; sourceTree = "<group>"; };
+		34AA740C710883268643BE49FC0DE01F /* Pods-JustIconFont_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JustIconFont_Example-Info.plist"; sourceTree = "<group>"; };
+		354BB1A818C2C27BAFD59A033D2A1FA4 /* FontAwesome-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "FontAwesome-Regular.ttf"; path = "JustIconFont/Assets/FontAwesome/FontAwesome-Regular.ttf"; sourceTree = "<group>"; };
+		3832C3C49E328739346FC44BA73508B5 /* NSAttributedString+IconFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+IconFont.swift"; sourceTree = "<group>"; };
+		3D84C39B77305E120A3FAB22F8900454 /* FontAwesome-Brands.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "FontAwesome-Brands.ttf"; path = "JustIconFont/Assets/FontAwesome/FontAwesome-Brands.ttf"; sourceTree = "<group>"; };
 		40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		444B943F01AC6C7ABDC56B58000145D5 /* JustIconFont.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JustIconFont.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		4A4450A1874FF42BF636CF59C8BEF89A /* Ionicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = Ionicons.ttf; path = JustIconFont/Assets/Ionicons/Ionicons.ttf; sourceTree = "<group>"; };
-		59D18F41A574F8A2B1B1B6F36E11B22C /* Pods-JustIconFont_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JustIconFont_Example-Info.plist"; sourceTree = "<group>"; };
-		646FFFB4F414F44EE96D5BBC8AB0E71C /* UIButton+IconFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIButton+IconFont.swift"; sourceTree = "<group>"; };
-		667E3C0CD2916A5AB81B5E7A00C41715 /* JustIconFont-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JustIconFont-dummy.m"; sourceTree = "<group>"; };
-		692B7DEE1766AAE3B5FB3085CF62547A /* Pods-JustIconFont_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JustIconFont_Example-dummy.m"; sourceTree = "<group>"; };
-		6B6475800185D614CD20A1EC46854F0D /* JustIconFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JustIconFont.swift; path = JustIconFont/Classes/Code/JustIconFont.swift; sourceTree = "<group>"; };
-		6D587F3C04439538C9F24CC8A676CFAD /* Pods-JustIconFont_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JustIconFont_Example.modulemap"; sourceTree = "<group>"; };
-		7E99ACF76AC5648B90891BD792C582C0 /* FontAwesome-Solid.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "FontAwesome-Solid.ttf"; path = "JustIconFont/Assets/FontAwesome/FontAwesome-Solid.ttf"; sourceTree = "<group>"; };
-		96DA15584432D769E08AB615BDD75335 /* NSAttributedString+IconFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+IconFont.swift"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F608229EE63888AE38CF6C5DA6C5D61 /* Pods-JustIconFont_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JustIconFont_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A0DBEDF1FF3C9CEFAC07006530C3D726 /* JustIconFont.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JustIconFont.xcconfig; sourceTree = "<group>"; };
-		A539509A15C7E654969D0AB7633C4AE4 /* Pods-JustIconFont_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JustIconFont_Example.release.xcconfig"; sourceTree = "<group>"; };
-		A9A7022FC192F5D7EDFA43B28A955901 /* Pods-JustIconFont_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JustIconFont_Example-frameworks.sh"; sourceTree = "<group>"; };
+		444B943F01AC6C7ABDC56B58000145D5 /* JustIconFont.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = JustIconFont.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4A4450A1874FF42BF636CF59C8BEF89A /* Ionicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = Ionicons.ttf; path = JustIconFont/Assets/Ionicons/Ionicons.ttf; sourceTree = "<group>"; };
+		58D924E53E70D2E51AB462C9FAD39319 /* FontAwesome.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesome.swift; path = JustIconFont/Classes/FontAwesome/FontAwesome.swift; sourceTree = "<group>"; };
+		63BBB8A4FFC700FA2D2BD8BFADC93D1D /* JustIconFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JustIconFont.swift; path = JustIconFont/Classes/Code/JustIconFont.swift; sourceTree = "<group>"; };
+		691DA4D22F5A667CB33C9972D966BD94 /* Pods-JustIconFont_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JustIconFont_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7CF7F6E11B87A4F006E3E746FF80B00A /* Pods-JustIconFont_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JustIconFont_Example-dummy.m"; sourceTree = "<group>"; };
+		823672F154C688E30CC8684795AF3EC1 /* Pods-JustIconFont_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JustIconFont_Example-umbrella.h"; sourceTree = "<group>"; };
+		8D75FD2B2B8C298862F68E297862FC21 /* Pods-JustIconFont_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JustIconFont_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A06D84424EC8C4422B272145582F6FBF /* UIButton+IconFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIButton+IconFont.swift"; sourceTree = "<group>"; };
+		A5BEB1BCD6E3B0DBDDCD4453BCA25036 /* Pods-JustIconFont_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JustIconFont_Example.release.xcconfig"; sourceTree = "<group>"; };
 		AAC809C6607F93E166F1F29AD9852771 /* Iconic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Iconic.swift; path = JustIconFont/Classes/Iconic/Iconic.swift; sourceTree = "<group>"; };
-		B18210EB8ED04AA2BFC7BDA8950C8EA1 /* JustIconFont.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JustIconFont.modulemap; sourceTree = "<group>"; };
-		B2DEB7372E077976551E0DF4A2B29EA2 /* JustIconFont-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JustIconFont-umbrella.h"; sourceTree = "<group>"; };
-		CAD369D328FBA7D57552D5B6EEB120A9 /* UIFont+IconFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIFont+IconFont.swift"; sourceTree = "<group>"; };
-		D068B9BB09B90A08BC744AC0192298F2 /* Pods-JustIconFont_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JustIconFont_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		D6AF4B8B0DDBF646C744BC42B0F621FA /* UIBarButtonItem+IconFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+IconFont.swift"; sourceTree = "<group>"; };
-		D6B35D30A2ED4CCFEAD0336B28668D62 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		D707A4D6A87FEA37EB26296BDA081DC5 /* FontAwesome-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "FontAwesome-Regular.ttf"; path = "JustIconFont/Assets/FontAwesome/FontAwesome-Regular.ttf"; sourceTree = "<group>"; };
-		E2FBCCE37510558E3C830E31993336D1 /* Pods-JustIconFont_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JustIconFont_Example-umbrella.h"; sourceTree = "<group>"; };
-		E496E71C9CA9CEEF18F64EBFA7756CFA /* JustIconFont-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JustIconFont-Info.plist"; sourceTree = "<group>"; };
-		E5635A0DF281874F1F865A158755078F /* JustIconFont.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JustIconFont.framework; path = JustIconFont.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E8D80A0E352BABFB046FAFAFA9773DF0 /* Pods_JustIconFont_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JustIconFont_Example.framework; path = "Pods-JustIconFont_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9FDE2AEB9632939A0085069F16AD0AF /* FontAwesome-Brands.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "FontAwesome-Brands.ttf"; path = "JustIconFont/Assets/FontAwesome/FontAwesome-Brands.ttf"; sourceTree = "<group>"; };
+		ADA0A3A987120E867A36A14AC7D8E032 /* JustIconFont.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JustIconFont.xcconfig; sourceTree = "<group>"; };
+		B7823A2220FC43ADC8065BE95DEBFD08 /* UILabel+IconFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UILabel+IconFont.swift"; sourceTree = "<group>"; };
+		C37CAFC40ADBC17E5B73816A7C17446E /* UIImage+IconFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIImage+IconFont.swift"; sourceTree = "<group>"; };
+		CAD85AF3F9BEDC9A0437BE74FC18156A /* Pods-JustIconFont_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JustIconFont_Example-frameworks.sh"; sourceTree = "<group>"; };
+		CBBA720FDBBCC617D3A9BC07167F180D /* JustIconFont.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JustIconFont.modulemap; sourceTree = "<group>"; };
+		D6B35D30A2ED4CCFEAD0336B28668D62 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D6DF1A055F4C45418B78024671D4D72D /* Pods-JustIconFont_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JustIconFont_Example.modulemap"; sourceTree = "<group>"; };
+		DE4BA715913EE19019B32E30C703B539 /* IconFontType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IconFontType.swift; path = JustIconFont/Classes/Code/IconFontType.swift; sourceTree = "<group>"; };
+		E5635A0DF281874F1F865A158755078F /* JustIconFont.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JustIconFont.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8D80A0E352BABFB046FAFAFA9773DF0 /* Pods_JustIconFont_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JustIconFont_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		F0C967B9BDC036816B1CCA0AB7D93477 /* Iconic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = Iconic.ttf; path = JustIconFont/Assets/Iconic/Iconic.ttf; sourceTree = "<group>"; };
-		F39C6FFFB06806FE9D92EC840966FF68 /* JustIconFont-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JustIconFont-prefix.pch"; sourceTree = "<group>"; };
+		F0C967B9BDC036816B1CCA0AB7D93477 /* Iconic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = Iconic.ttf; path = JustIconFont/Assets/Iconic/Iconic.ttf; sourceTree = "<group>"; };
+		F210A0B64003CF07446A8BD70C6B055A /* UIBarButtonItem+IconFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+IconFont.swift"; sourceTree = "<group>"; };
+		F415BEF6EBEE811E0425B15506B02D7B /* JustIconFont-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JustIconFont-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1804FC93FF7C87FE7FD32E1855CA9922 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BA916A83761CC872E87EE589C7095ACD /* Foundation.framework in Frameworks */,
-				1BC7C0681744F476E83370569EC55CC5 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4170A07520CB8F0918C6FC5FCB1B4B8C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -102,9 +91,49 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7E196835725E8A27800CAF7725B590FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EA4C893B202A6E835B78319152CB4C5 /* Foundation.framework in Frameworks */,
+				2EB642551B1DBC3F5091BDD89E244111 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E6F6F6E2CC22F38707FE82B6672578A /* Pods-JustIconFont_Example */ = {
+			isa = PBXGroup;
+			children = (
+				D6DF1A055F4C45418B78024671D4D72D /* Pods-JustIconFont_Example.modulemap */,
+				691DA4D22F5A667CB33C9972D966BD94 /* Pods-JustIconFont_Example-acknowledgements.markdown */,
+				153033F7D429CF14CEA399FFB83B7CED /* Pods-JustIconFont_Example-acknowledgements.plist */,
+				7CF7F6E11B87A4F006E3E746FF80B00A /* Pods-JustIconFont_Example-dummy.m */,
+				CAD85AF3F9BEDC9A0437BE74FC18156A /* Pods-JustIconFont_Example-frameworks.sh */,
+				34AA740C710883268643BE49FC0DE01F /* Pods-JustIconFont_Example-Info.plist */,
+				823672F154C688E30CC8684795AF3EC1 /* Pods-JustIconFont_Example-umbrella.h */,
+				8D75FD2B2B8C298862F68E297862FC21 /* Pods-JustIconFont_Example.debug.xcconfig */,
+				A5BEB1BCD6E3B0DBDDCD4453BCA25036 /* Pods-JustIconFont_Example.release.xcconfig */,
+			);
+			name = "Pods-JustIconFont_Example";
+			path = "Target Support Files/Pods-JustIconFont_Example";
+			sourceTree = "<group>";
+		};
+		1002387E31ED184EB6E94754F4474F9E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3832C3C49E328739346FC44BA73508B5 /* NSAttributedString+IconFont.swift */,
+				F210A0B64003CF07446A8BD70C6B055A /* UIBarButtonItem+IconFont.swift */,
+				A06D84424EC8C4422B272145582F6FBF /* UIButton+IconFont.swift */,
+				16CBC10A653A1A48EAB1B4DCECD16178 /* UIFont+IconFont.swift */,
+				C37CAFC40ADBC17E5B73816A7C17446E /* UIImage+IconFont.swift */,
+				B7823A2220FC43ADC8065BE95DEBFD08 /* UILabel+IconFont.swift */,
+			);
+			name = Extensions;
+			path = JustIconFont/Classes/Code/Extensions;
+			sourceTree = "<group>";
+		};
 		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -121,46 +150,20 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		3EBDF1418A2BCEA4A378AF31D7D4A0E0 /* Resources */ = {
+		2F486DF734EE8697563B51E581016037 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				E9FDE2AEB9632939A0085069F16AD0AF /* FontAwesome-Brands.ttf */,
-				D707A4D6A87FEA37EB26296BDA081DC5 /* FontAwesome-Regular.ttf */,
-				7E99ACF76AC5648B90891BD792C582C0 /* FontAwesome-Solid.ttf */,
+				DE4BA715913EE19019B32E30C703B539 /* IconFontType.swift */,
+				63BBB8A4FFC700FA2D2BD8BFADC93D1D /* JustIconFont.swift */,
+				1002387E31ED184EB6E94754F4474F9E /* Extensions */,
 			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		4357E9BB532BF4CC953F7B99ABD9D539 /* Pods-JustIconFont_Example */ = {
-			isa = PBXGroup;
-			children = (
-				6D587F3C04439538C9F24CC8A676CFAD /* Pods-JustIconFont_Example.modulemap */,
-				9F608229EE63888AE38CF6C5DA6C5D61 /* Pods-JustIconFont_Example-acknowledgements.markdown */,
-				D068B9BB09B90A08BC744AC0192298F2 /* Pods-JustIconFont_Example-acknowledgements.plist */,
-				692B7DEE1766AAE3B5FB3085CF62547A /* Pods-JustIconFont_Example-dummy.m */,
-				A9A7022FC192F5D7EDFA43B28A955901 /* Pods-JustIconFont_Example-frameworks.sh */,
-				59D18F41A574F8A2B1B1B6F36E11B22C /* Pods-JustIconFont_Example-Info.plist */,
-				E2FBCCE37510558E3C830E31993336D1 /* Pods-JustIconFont_Example-umbrella.h */,
-				3A8B56A82442C391A09EB98B06651175 /* Pods-JustIconFont_Example.debug.xcconfig */,
-				A539509A15C7E654969D0AB7633C4AE4 /* Pods-JustIconFont_Example.release.xcconfig */,
-			);
-			name = "Pods-JustIconFont_Example";
-			path = "Target Support Files/Pods-JustIconFont_Example";
-			sourceTree = "<group>";
-		};
-		50316C8289913094FF7A27F26656AA64 /* FontAwesome */ = {
-			isa = PBXGroup;
-			children = (
-				2B260B175C498BB5E7B8C70F45123D29 /* FontAwesome.swift */,
-				3EBDF1418A2BCEA4A378AF31D7D4A0E0 /* Resources */,
-			);
-			name = FontAwesome;
+			name = Core;
 			sourceTree = "<group>";
 		};
 		53AE062FD067CF73BDB3D0C33D0A46F4 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4357E9BB532BF4CC953F7B99ABD9D539 /* Pods-JustIconFont_Example */,
+				0E6F6F6E2CC22F38707FE82B6672578A /* Pods-JustIconFont_Example */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -173,6 +176,20 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
+		9211316890EC34A407BA596D3BCBA41C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBBA720FDBBCC617D3A9BC07167F180D /* JustIconFont.modulemap */,
+				ADA0A3A987120E867A36A14AC7D8E032 /* JustIconFont.xcconfig */,
+				3239490EAD9182384DFA4FEFDA5531C3 /* JustIconFont-dummy.m */,
+				F415BEF6EBEE811E0425B15506B02D7B /* JustIconFont-Info.plist */,
+				29B1AAF784E67C591065DC5CEDB1DCC6 /* JustIconFont-prefix.pch */,
+				1D99F391A29C5F64DED4C16D0EC2B9BB /* JustIconFont-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JustIconFont";
+			sourceTree = "<group>";
+		};
 		9238A8C6375BDA7AC4D90E7F8C9FF642 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
@@ -181,16 +198,6 @@
 				D6B35D30A2ED4CCFEAD0336B28668D62 /* README.md */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		954C9BA40505A0572E035A92BEC8153F /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				3441E19407DD641E3B3C346199DE88AF /* IconFontType.swift */,
-				6B6475800185D614CD20A1EC46854F0D /* JustIconFont.swift */,
-				F96DFDECC6C6053C6FC67C857198B8B1 /* Extensions */,
-			);
-			name = Core;
 			sourceTree = "<group>";
 		};
 		9D15924363A297C2F207E40B9D1C55C2 /* Ionicons */ = {
@@ -205,15 +212,24 @@
 		B51E3AB794F28294B5AA53356802113C /* JustIconFont */ = {
 			isa = PBXGroup;
 			children = (
-				954C9BA40505A0572E035A92BEC8153F /* Core */,
-				50316C8289913094FF7A27F26656AA64 /* FontAwesome */,
+				2F486DF734EE8697563B51E581016037 /* Core */,
+				C30B8EDE7C3D45182C712CB5B2C220AA /* FontAwesome */,
 				D9035B990DD3B83BE15C8AF7AD8E13E5 /* Iconic */,
 				9D15924363A297C2F207E40B9D1C55C2 /* Ionicons */,
 				9238A8C6375BDA7AC4D90E7F8C9FF642 /* Pod */,
-				FF57CAB6BB91D0A20BA5C65BBBDD45EB /* Support Files */,
+				9211316890EC34A407BA596D3BCBA41C /* Support Files */,
 			);
 			name = JustIconFont;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		C30B8EDE7C3D45182C712CB5B2C220AA /* FontAwesome */ = {
+			isa = PBXGroup;
+			children = (
+				58D924E53E70D2E51AB462C9FAD39319 /* FontAwesome.swift */,
+				DB5DBFA8832ED5C2F8A34135EEF244A3 /* Resources */,
+			);
+			name = FontAwesome;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -244,6 +260,15 @@
 			name = Iconic;
 			sourceTree = "<group>";
 		};
+		DB5DBFA8832ED5C2F8A34135EEF244A3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3D84C39B77305E120A3FAB22F8900454 /* FontAwesome-Brands.ttf */,
+				354BB1A818C2C27BAFD59A033D2A1FA4 /* FontAwesome-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		E169A450ED27AC725DF52953F66D11E0 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -262,34 +287,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F96DFDECC6C6053C6FC67C857198B8B1 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				96DA15584432D769E08AB615BDD75335 /* NSAttributedString+IconFont.swift */,
-				D6AF4B8B0DDBF646C744BC42B0F621FA /* UIBarButtonItem+IconFont.swift */,
-				646FFFB4F414F44EE96D5BBC8AB0E71C /* UIButton+IconFont.swift */,
-				CAD369D328FBA7D57552D5B6EEB120A9 /* UIFont+IconFont.swift */,
-				3E5943EA75AF9ADAFC63AFC890CE41F3 /* UIImage+IconFont.swift */,
-				1E7998CF58E26E7B7D3604C25CE1061E /* UILabel+IconFont.swift */,
-			);
-			name = Extensions;
-			path = JustIconFont/Classes/Code/Extensions;
-			sourceTree = "<group>";
-		};
-		FF57CAB6BB91D0A20BA5C65BBBDD45EB /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B18210EB8ED04AA2BFC7BDA8950C8EA1 /* JustIconFont.modulemap */,
-				A0DBEDF1FF3C9CEFAC07006530C3D726 /* JustIconFont.xcconfig */,
-				667E3C0CD2916A5AB81B5E7A00C41715 /* JustIconFont-dummy.m */,
-				E496E71C9CA9CEEF18F64EBFA7756CFA /* JustIconFont-Info.plist */,
-				F39C6FFFB06806FE9D92EC840966FF68 /* JustIconFont-prefix.pch */,
-				B2DEB7372E077976551E0DF4A2B29EA2 /* JustIconFont-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/JustIconFont";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -301,25 +298,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DCFDD78FA1FC1D7C10805FE4118ACDAF /* Headers */ = {
+		A0353E43343F3F922955E861778A185B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6103C41C83460A8AF6B26A581F20D62E /* JustIconFont-umbrella.h in Headers */,
+				8597A53AAABE91F1338A3731683A45BA /* JustIconFont-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		03F23C09F693D36F6389540B5AF21A20 /* JustIconFont */ = {
+		29B763CBD43ADE33C00C0DA4E7C70B82 /* JustIconFont */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FC278D8D43A31F1BBD7B7BEEEF31E221 /* Build configuration list for PBXNativeTarget "JustIconFont" */;
+			buildConfigurationList = D6D5FCF1D9E6A6867AE9C60EE42F5A98 /* Build configuration list for PBXNativeTarget "JustIconFont" */;
 			buildPhases = (
-				DCFDD78FA1FC1D7C10805FE4118ACDAF /* Headers */,
-				EA1F48F65556D4D7050BD9CD2265E591 /* Sources */,
-				1804FC93FF7C87FE7FD32E1855CA9922 /* Frameworks */,
-				B814FFAC18D281538E00CF5D15A85133 /* Resources */,
+				A0353E43343F3F922955E861778A185B /* Headers */,
+				AC638EFF67B54597A1E963FD28CB8D97 /* Sources */,
+				7E196835725E8A27800CAF7725B590FF /* Frameworks */,
+				C54FAE600D163E4B7F787942CE523939 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -330,7 +327,7 @@
 			productReference = E5635A0DF281874F1F865A158755078F /* JustIconFont.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A5104EEAE8D0AE94EAA6B8287820BBB0 /* Pods-JustIconFont_Example */ = {
+		370D01CDE974891F908D07309D3A0EF4 /* Pods-JustIconFont_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E39AB84B76B92BFCEA45D36E93F31D4 /* Build configuration list for PBXNativeTarget "Pods-JustIconFont_Example" */;
 			buildPhases = (
@@ -356,36 +353,36 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1020;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = F118E67C4DC80DFA90330D12B9BF935D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				03F23C09F693D36F6389540B5AF21A20 /* JustIconFont */,
-				A5104EEAE8D0AE94EAA6B8287820BBB0 /* Pods-JustIconFont_Example */,
+				29B763CBD43ADE33C00C0DA4E7C70B82 /* JustIconFont */,
+				370D01CDE974891F908D07309D3A0EF4 /* Pods-JustIconFont_Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B814FFAC18D281538E00CF5D15A85133 /* Resources */ = {
+		C54FAE600D163E4B7F787942CE523939 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A235E62A55E6D1271F1C32722052B5F /* FontAwesome-Brands.ttf in Resources */,
-				C352924DFFEC0310B320C1390E6E38D6 /* FontAwesome-Regular.ttf in Resources */,
-				6EA392DA7617E81DF50AE759C9FB9CC0 /* FontAwesome-Solid.ttf in Resources */,
-				EF2FF4240380C02CBEA8A4AD901A7ECC /* Iconic.ttf in Resources */,
-				6933642B06261B4E4531797C7020CC83 /* Ionicons.ttf in Resources */,
+				D19C975451494890C81801E6D710F694 /* FontAwesome-Brands.ttf in Resources */,
+				1A6B2903C93C4B0A03BFB2A47603F4CD /* FontAwesome-Regular.ttf in Resources */,
+				C5C4B076462E916CAF98EBD7D674D7DE /* Iconic.ttf in Resources */,
+				AEAC37BAE77F6DD0769D7CCAA3607BF9 /* Ionicons.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,22 +404,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EA1F48F65556D4D7050BD9CD2265E591 /* Sources */ = {
+		AC638EFF67B54597A1E963FD28CB8D97 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE3491F20D4A75DB35D53D9EBDDF46BF /* FontAwesome.swift in Sources */,
-				A34BD348D4E7B3061448DDFB8F728292 /* IconFontType.swift in Sources */,
-				955803017317335AB0356EE1BEE49E63 /* Iconic.swift in Sources */,
-				F6E955F3A4361C5A0C188375DD84FAFA /* Ionicons.swift in Sources */,
-				78F7E6BF9CD98FC5CCE15FA236FB4A2C /* JustIconFont-dummy.m in Sources */,
-				CD9EC203C0E0E5A9274D2896E134B083 /* JustIconFont.swift in Sources */,
-				F4DC4C7B681DEAAF6F8612B3484C94EC /* NSAttributedString+IconFont.swift in Sources */,
-				A342AA066849421E5895D9BC7B8537A1 /* UIBarButtonItem+IconFont.swift in Sources */,
-				92BB04367380485083F20EDF150CA0D6 /* UIButton+IconFont.swift in Sources */,
-				DC24116F7667AD5CB07598C59BA2B264 /* UIFont+IconFont.swift in Sources */,
-				8730E7DB6F6D6FF8609C3401BA858E8F /* UIImage+IconFont.swift in Sources */,
-				81CC2C9E27C815DFF3775E0B8562A831 /* UILabel+IconFont.swift in Sources */,
+				FF058E0013FB43E99156C53373A8D049 /* FontAwesome.swift in Sources */,
+				9C8839EFAC42F593B4879C4CDAE8AA7B /* IconFontType.swift in Sources */,
+				3DBBF4D8D0D9700728EFDEBF70CE3E67 /* Iconic.swift in Sources */,
+				3EB19412DF7C6CFBF4ABDD57C7452C41 /* Ionicons.swift in Sources */,
+				27DD0C5D6C13DA4063C87CA0DD6849DA /* JustIconFont-dummy.m in Sources */,
+				08330D6ADA779ECE8034D1B8DD258629 /* JustIconFont.swift in Sources */,
+				1CED506ACF7CA1FD759218C6705CA644 /* NSAttributedString+IconFont.swift in Sources */,
+				18C20A7041F45B414E153943FC84F758 /* UIBarButtonItem+IconFont.swift in Sources */,
+				CE0E98A242B62E603AD1111560EB7927 /* UIButton+IconFont.swift in Sources */,
+				FB60F0416BF3CA9ED47A1608D76B4E4D /* UIFont+IconFont.swift in Sources */,
+				BF37077048CFFC5DE432E874F5C9EC38 /* UIImage+IconFont.swift in Sources */,
+				067E66965FDC0D6F3B1AB72566AF37C6 /* UILabel+IconFont.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,7 +429,7 @@
 		3B8BF6260100502022AE10AB8161FCBC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JustIconFont;
-			target = 03F23C09F693D36F6389540B5AF21A20 /* JustIconFont */;
+			target = 29B763CBD43ADE33C00C0DA4E7C70B82 /* JustIconFont */;
 			targetProxy = 7BA2C246A9DE05C9E5A16B5585179457 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -442,6 +439,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -491,8 +489,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -500,7 +497,7 @@
 		};
 		3B0139232F107D15372C4111E7196F2A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A539509A15C7E654969D0AB7633C4AE4 /* Pods-JustIconFont_Example.release.xcconfig */;
+			baseConfigurationReference = A5BEB1BCD6E3B0DBDDCD4453BCA25036 /* Pods-JustIconFont_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -536,6 +533,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -596,9 +594,9 @@
 			};
 			name = Debug;
 		};
-		944E9252AC81FBBD19BF8148705F168A /* Debug */ = {
+		D850EE94730A09A7D51E73CE200C2F36 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A0DBEDF1FF3C9CEFAC07006530C3D726 /* JustIconFont.xcconfig */;
+			baseConfigurationReference = ADA0A3A987120E867A36A14AC7D8E032 /* JustIconFont.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -627,41 +625,9 @@
 			};
 			name = Debug;
 		};
-		99A8597C26A32970810D8654BBAD9753 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A0DBEDF1FF3C9CEFAC07006530C3D726 /* JustIconFont.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JustIconFont/JustIconFont-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JustIconFont/JustIconFont-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JustIconFont/JustIconFont.modulemap";
-				PRODUCT_MODULE_NAME = JustIconFont;
-				PRODUCT_NAME = JustIconFont;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		DF48E4028BF7CF890E2826D1546851A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A8B56A82442C391A09EB98B06651175 /* Pods-JustIconFont_Example.debug.xcconfig */;
+			baseConfigurationReference = 8D75FD2B2B8C298862F68E297862FC21 /* Pods-JustIconFont_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -692,6 +658,38 @@
 			};
 			name = Debug;
 		};
+		E703B592478051317960D74365CB59E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADA0A3A987120E867A36A14AC7D8E032 /* JustIconFont.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JustIconFont/JustIconFont-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JustIconFont/JustIconFont-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JustIconFont/JustIconFont.modulemap";
+				PRODUCT_MODULE_NAME = JustIconFont;
+				PRODUCT_NAME = JustIconFont;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -713,11 +711,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FC278D8D43A31F1BBD7B7BEEEF31E221 /* Build configuration list for PBXNativeTarget "JustIconFont" */ = {
+		D6D5FCF1D9E6A6867AE9C60EE42F5A98 /* Build configuration list for PBXNativeTarget "JustIconFont" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				944E9252AC81FBBD19BF8148705F168A /* Debug */,
-				99A8597C26A32970810D8654BBAD9753 /* Release */,
+				D850EE94730A09A7D51E73CE200C2F36 /* Debug */,
+				E703B592478051317960D74365CB59E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
