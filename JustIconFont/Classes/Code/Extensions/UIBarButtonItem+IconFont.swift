@@ -9,20 +9,20 @@
 import Foundation
 import UIKit
 
-extension UIBarButtonItem {
+public extension UIBarButtonItem {
     
-    public enum UIBarButtonItemIconType {
+    enum UIBarButtonItemIconType {
         case title
         case image
     }
     
-    public func iconFont(size fontSize: CGFloat, icon: IconFontType, color: UIColor? = nil, type: UIBarButtonItemIconType = .image) {
+    func iconFont(_ icon: IconFontType, fontSize: CGFloat, color: UIColor? = nil, type: UIBarButtonItemIconType = .image) {
         switch type {
         case .image:
-            image = UIImage.iconFont(fontSize: fontSize, icon: icon, color: color)
+            image = UIImage.iconFont(icon, fontSize: fontSize, color: color)
             tintColor = color
         case .title:
-            let attributes = NSAttributedString.attributes(size: fontSize, icon: icon, color: color)
+            let attributes = NSAttributedString.attributes(with: icon, fontSize: fontSize, color: color)
             setTitleTextAttributes(attributes, for: .normal)
             title = icon.unicode
         }

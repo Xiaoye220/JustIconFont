@@ -8,20 +8,26 @@ PODS:
     - JustIconFont/Core
   - JustIconFont/Ionicons (5.0.0):
     - JustIconFont/Core
+  - JustIconFont/MaterialIcons (5.0.0):
+    - JustIconFont/Core
+  - JustIconFont/Octicons (5.0.0):
+    - JustIconFont/Core
 
 DEPENDENCIES:
   - JustIconFont (from `../`)
   - JustIconFont/FontAwesome (from `../`)
   - JustIconFont/Iconic (from `../`)
   - JustIconFont/Ionicons (from `../`)
+  - JustIconFont/MaterialIcons (from `../`)
+  - JustIconFont/Octicons (from `../`)
 
 EXTERNAL SOURCES:
   JustIconFont:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JustIconFont: 958f17b5936174511e0e2e226e103bd55910a141
+  JustIconFont: 39913d2a5f85d5fc51459fb9f8b6e2c360597307
 
-PODFILE CHECKSUM: b922b2bc9d32d91622ee247109210c058289fe41
+PODFILE CHECKSUM: 2e7f9df5f5232fe57c4b90b0810f88e62f43d407
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.7.0.beta.2

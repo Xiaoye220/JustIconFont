@@ -7,11 +7,11 @@
 
 import Foundation
 
-public protocol IconFontEnumType: IconFontType, RawRepresentable where RawValue == String {
+public protocol IconFontEnumType: IconFontType, CaseIterable, RawRepresentable where RawValue == String {
     
 }
 
-extension IconFontEnumType {
+public extension IconFontEnumType {
     var unicode: String {
         return self.rawValue
     }

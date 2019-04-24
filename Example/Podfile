@@ -3,9 +3,11 @@ use_frameworks!
 platform :ios,'8.0'
 
 target 'JustIconFont_Example' do
-  pod 'JustIconFont', :path => '../'
-  pod 'JustIconFont/FontAwesome', :path => '../'
-  pod 'JustIconFont/Iconic', :path => '../'
-  pod 'JustIconFont/Ionicons', :path => '../'
+  pod 'JustIconFont', 			:path => '../'
+  pod 'JustIconFont/FontAwesome', 	:path => '../'
+  pod 'JustIconFont/Iconic', 		:path => '../'
+  pod 'JustIconFont/Ionicons', 		:path => '../'
+  pod 'JustIconFont/MaterialIcons', 	:path => '../'
+  pod 'JustIconFont/Octicons', 		:path => '../'
 
 end

@@ -8,25 +8,20 @@
 import Foundation
 
 
-extension Iconic: IconFontType, CaseIterable {
-    
-    public var filePath: String? {
-        return Bundle(for: EmptyClass.self).path(forResource: "Iconic", ofType: "ttf")
-    }
+extension Iconic: IconFontEnumType {
     
     public var name: String {
         return "Iconic"
     }
     
-    public var unicode: String {
-        return self.rawValue
-    }
 }
 
 
 /// Iconic v1.1.1
 ///
-/// https://github.com/iconic/open-iconic
+/// An open source icon set with 223 marks in SVG, webfont and raster formats.
+///
+/// https://useiconic.com/open
 public enum Iconic: String {
     case accountLogin = "\u{eaa5}"
     case accountLogout = "\u{eaa8}"

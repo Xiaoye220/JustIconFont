@@ -7,23 +7,18 @@
 
 import Foundation
 
-extension Ionicons: IconFontType, CaseIterable {
-    
-    public var filePath: String? {
-        return Bundle(for: EmptyClass.self).path(forResource: "Ionicons", ofType: "ttf")
-    }
+extension Ionicons: IconFontEnumType {
     
     public var name: String {
         return "Ionicons"
     }
     
-    public var unicode: String {
-        return self.rawValue
-    }
 }
 
 
 /// Ionicons v4.5.5
+///
+/// Beautifully crafted open source icons
 ///
 /// https://ionicons.com/
 public enum Ionicons: String {

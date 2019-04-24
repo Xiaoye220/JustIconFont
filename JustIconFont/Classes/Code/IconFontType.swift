@@ -9,6 +9,7 @@
 import Foundation
 import UIKit
 
+class IconFontEmptyClass{}
 
 public protocol IconFontType {
     
@@ -20,13 +21,15 @@ public protocol IconFontType {
     var unicode: String { get }
 }
 
-extension IconFontType {
+public extension IconFontType {
     
     var filePath: String? {
         if let filePath = Bundle.main.path(forResource: name, ofType: "ttf") {
             return filePath
-        } else if let filePath = Bundle(for: EmptyClass.self).path(forResource: name, ofType: "ttf") {
+            
+        } else if let filePath = Bundle(for: IconFontEmptyClass.self).path(forResource: name, ofType: "ttf") {
             return filePath
+            
         } else {
             return nil
         }
@@ -34,7 +37,7 @@ extension IconFontType {
     
     func loadFont() -> Bool {
         
-        if UIFont.fontNames(forFamilyName: name).count > 0 {
+        if !UIFont.fontNames(forFamilyName: name).isEmpty {
             return true
         }
 
@@ -49,7 +52,7 @@ extension IconFontType {
         
         if !CTFontManagerRegisterGraphicsFont(cgFont, &error) {
             let errorDescription: CFString = CFErrorCopyDescription(error!.takeUnretainedValue())
-            print("Unable to load font: \(errorDescription)")
+            print("Unable to load font \(name): \(errorDescription)")
             return false
         }
 

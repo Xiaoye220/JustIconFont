@@ -9,9 +9,9 @@
 import Foundation
 import UIKit
 
-extension UIImage {
+public extension UIImage {
     
-    public static func iconFont(fontSize: CGFloat, icon: IconFontType, color: UIColor? = nil) -> UIImage {
+    static func iconFont(_ icon: IconFontType, fontSize: CGFloat, color: UIColor? = nil) -> UIImage {
         var attributes = [NSAttributedString.Key: Any]()
         attributes[NSAttributedString.Key.font] = UIFont(iconFont: icon, size: fontSize)
         if let color = color {
@@ -32,7 +32,7 @@ extension UIImage {
         return image
     }
 
-    public static func iconFont(imageSize: CGSize, icon: IconFontType, color: UIColor? = nil) -> UIImage {
+    static func iconFont(_ icon: IconFontType, imageSize: CGSize, color: UIColor? = nil) -> UIImage {
         var attributes = [NSAttributedString.Key: Any]()
         attributes[NSAttributedString.Key.font] = UIFont(iconFont: icon, size: 1)
         if let color = color {

@@ -61,7 +61,7 @@ extension ShowIconViewController: UITableViewDelegate, UITableViewDataSource {
             cell = UITableViewCell.init(style: .value1, reuseIdentifier: "cell")
         }
         let icon = icons[indexPath.row]
-        cell.imageView?.image = UIImage.iconFont(imageSize: CGSize.init(width: 25, height: 25), icon: icon, color: #colorLiteral(red: 0.01186555624, green: 0.515492022, blue: 0.3117238581, alpha: 1))
+        cell.imageView?.image = UIImage.iconFont(icon, imageSize: CGSize(width: 25, height: 25), color: #colorLiteral(red: 0.01186555624, green: 0.515492022, blue: 0.3117238581, alpha: 1))
 
         cell.textLabel?.text = "\(icon)"
         

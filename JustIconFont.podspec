@@ -48,6 +48,18 @@ Pod::Spec.new do |s|
     sp.dependency 'JustIconFont/Core'
   end
 
+  s.subspec 'MaterialIcons' do |sp|
+    sp.source_files = 'JustIconFont/Classes/MaterialIcons/*'
+    sp.resources = 'JustIconFont/Assets/MaterialIcons/*.ttf'
+    sp.dependency 'JustIconFont/Core'
+  end
+
+  s.subspec 'Octicons' do |sp|
+    sp.source_files = 'JustIconFont/Classes/Octicons/*'
+    sp.resources = 'JustIconFont/Assets/Octicons/*.ttf'
+    sp.dependency 'JustIconFont/Core'
+  end
+
   s.framework  = 'UIKit'
 
 

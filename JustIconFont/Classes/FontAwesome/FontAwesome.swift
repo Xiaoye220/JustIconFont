@@ -8,56 +8,40 @@
 
 import Foundation
 
-extension FontAwesome.Solid: IconFontType, CaseIterable {
-
-    public var filePath: String? {
-        return Bundle(for: EmptyClass.self).path(forResource: "FontAwesome-Solid", ofType: "ttf")
-    }
+extension FontAwesome.Solid: IconFontEnumType {
 
     public var name: String {
         return "FontAwesome-Solid"
     }
 
-    public var unicode: String {
-        return self.rawValue
-    }
 }
 
-extension FontAwesome.Brands: IconFontType, CaseIterable {
-    
-    public var filePath: String? {
-        return Bundle(for: EmptyClass.self).path(forResource: "FontAwesome-Brands", ofType: "ttf")
-    }
+extension FontAwesome.Brands: IconFontEnumType {
     
     public var name: String {
         return "FontAwesome-Brands"
     }
     
-    public var unicode: String {
-        return self.rawValue
-    }
 }
 
-extension FontAwesome.Regular: IconFontType, CaseIterable {
-    
-    public var filePath: String? {
-        return Bundle(for: EmptyClass.self).path(forResource: "FontAwesome-Regular", ofType: "ttf")
-    }
+extension FontAwesome.Regular: IconFontEnumType {
     
     public var name: String {
         return "FontAwesome-Regular"
     }
     
-    public var unicode: String {
-        return self.rawValue
-    }
 }
 
-/// FontAwesome v5.8.1
+/// FontAwesome v5.8.1 (Free)
+///
+/// the web's most popular icon set and toolkit.
 ///
 /// http://fontawesome.io/icons/
 public enum FontAwesome {
     
+    /// FontAwesome Solid
+    ///
+    /// https://fontawesome.com/icons?d=gallery&s=solid&m=free
     public enum Solid: String {
         case ad = "\u{ea37}"
         case addressBook = "\u{ea33}"
@@ -999,6 +983,9 @@ public enum FontAwesome {
 
     }
     
+    /// FontAwesome Regular
+    ///
+    /// https://fontawesome.com/icons?d=gallery&s=regular&m=free
     public enum Regular: String {
         case addressBook = "\u{e9e5}"
         case addressCard = "\u{e9de}"
@@ -1154,6 +1141,9 @@ public enum FontAwesome {
         case windowRestore = "\u{ea59}"
     }
     
+    /// FontAwesome Brands
+    ///
+    /// https://fontawesome.com/icons?d=gallery&s=brands&m=free
     public enum Brands: String {
         case _500px = "\u{e9f4}"
         case accessibleIcon = "\u{e9f3}"

@@ -8,9 +8,11 @@
 import Foundation
 import UIKit
 
-extension UIFont {
-    convenience init?(iconFont iconFontType: IconFontType, size fontSize: CGFloat) {
-        if !iconFontType.loadFont() { return nil }
-        self.init(name: iconFontType.name, size: fontSize)
+public extension UIFont {
+    convenience init?(iconFont: IconFontType, size: CGFloat) {
+        if !iconFont.loadFont() {
+            return nil
+        }
+        self.init(name: iconFont.name, size: size)
     }
 }

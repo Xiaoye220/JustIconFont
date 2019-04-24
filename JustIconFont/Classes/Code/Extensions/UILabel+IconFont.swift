@@ -9,10 +9,10 @@
 import Foundation
 import UIKit
 
-extension UILabel {
+public extension UILabel {
     
-    public func iconFont(size fontSize: CGFloat, icon: IconFontType, color: UIColor? = nil) {
-        let attributedString = NSAttributedString.attributedString(size: fontSize, icon: icon, color: color)
+    func iconFont(_ icon: IconFontType, fontSize: CGFloat, color: UIColor? = nil) {
+        let attributedString = NSAttributedString.iconFont(icon, fontSize: fontSize, color: color)
         self.attributedText = attributedString
     }
     

@@ -15,7 +15,7 @@
     "git": "https://github.com/Xiaoye220/JustIconFont.git",
     "tag": "5.0.0"
   },
-  "swift_version": "5.0",
+  "swift_versions": "5.0",
   "platforms": {
     "ios": "8.0"
   },
@@ -50,6 +50,26 @@
       "name": "Ionicons",
       "source_files": "JustIconFont/Classes/Ionicons/*",
       "resources": "JustIconFont/Assets/Ionicons/*.ttf",
+      "dependencies": {
+        "JustIconFont/Core": [
+
+        ]
+      }
+    },
+    {
+      "name": "MaterialIcons",
+      "source_files": "JustIconFont/Classes/MaterialIcons/*",
+      "resources": "JustIconFont/Assets/MaterialIcons/*.ttf",
+      "dependencies": {
+        "JustIconFont/Core": [
+
+        ]
+      }
+    },
+    {
+      "name": "Octicons",
+      "source_files": "JustIconFont/Classes/Octicons/*",
+      "resources": "JustIconFont/Assets/Octicons/*.ttf",
       "dependencies": {
         "JustIconFont/Core": [
 
