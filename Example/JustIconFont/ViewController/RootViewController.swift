@@ -13,8 +13,14 @@ class RootViewController: UIViewController {
 
     enum Content: String {
         case UIExample = "UI Example"
-        case CustomIconFont = "Custom IconFont"
-        case FontAwesome
+        case MyIconFont = "Custom IconFont"
+        case FontAwesome_Solid = "FontAwesome Solid"
+        case FontAwesome_Brands = "FontAwesome Brands"
+        case FontAwesome_Regular = "FontAwesome Regular"
+        case Iconic
+        case Ionicons
+        case MaterialIcons
+        case Octicons
     }
     
     @IBOutlet weak var tableView: UITableView! {
@@ -25,7 +31,9 @@ class RootViewController: UIViewController {
         }
     }
     
-    let contents: [[Content]] = [[.UIExample], [.CustomIconFont, .FontAwesome]]
+    let contents: [[Content]] = [[.UIExample],
+                                 [.MyIconFont],
+                                 [.FontAwesome_Solid, .FontAwesome_Brands, .FontAwesome_Regular, .Iconic, .Ionicons, .MaterialIcons, .Octicons]]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -66,27 +74,11 @@ extension RootViewController: UITableViewDelegate, UITableViewDataSource {
             self.navigationController?.pushViewController(vc, animated: true)
         default:
             let vc = ShowIconViewController()
-            vc.iconFont = .FontAwesome
+            vc.showContent = content
             self.navigationController?.pushViewController(vc, animated: true)
         }
     }
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let indexPath = tableView.indexPathForSelectedRow!
-        switch segue.identifier {
-        case "showUIExample"?:
-            break
-        case "showIconFont"?:
-            let controller = segue.destination as! ShowIconViewController
-            if indexPath.section == 1 {
-                controller.iconFont = .FontAwesome
-            } else {
-                controller.iconFont = .custom
-            }
-        default:
-            break
-        }
-    }
 }
 
 

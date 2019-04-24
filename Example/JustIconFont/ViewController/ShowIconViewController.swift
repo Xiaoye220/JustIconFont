@@ -10,15 +10,10 @@ import UIKit
 import JustIconFont
 
 class ShowIconViewController: UIViewController {
-
-    enum IconFont {
-        case FontAwesome
-        case custom
-    }
     
     var tableView: UITableView!
     
-    var iconFont: IconFont!
+    var showContent: RootViewController.Content!
     
     var icons: [IconFontType] = []
     
@@ -26,11 +21,25 @@ class ShowIconViewController: UIViewController {
         super.viewDidLoad()
         self.view.backgroundColor = .white
 
-        switch iconFont! {
-        case .FontAwesome:
+        switch showContent! {
+        case .FontAwesome_Solid:
+            icons = FontAwesome.Solid.allCases
+        case .FontAwesome_Brands:
             icons = FontAwesome.Brands.allCases
-        case .custom:
+        case .FontAwesome_Regular:
+            icons = FontAwesome.Regular.allCases
+        case .Iconic:
+            icons = Iconic.allCases
+        case .Ionicons:
+            icons = Ionicons.allCases
+        case .MaterialIcons:
+            icons = MaterialIcons.allCases
+        case .Octicons:
+            icons = Octicons.allCases
+        case .MyIconFont:
             icons = MyIconFont.allCases
+        default:
+            break
         }
         
         let tableViewFrame = CGRect(x: 0, y: navHeight, width: screenWidth, height: screenHeight - navHeight)

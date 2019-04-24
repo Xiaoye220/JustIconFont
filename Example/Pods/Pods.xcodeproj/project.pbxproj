@@ -28,6 +28,7 @@
 		7F77463C79122B79077634C3E7F3D5C0 /* FontAwesome-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADEE429F8178E05DC941D70B3B329603 /* FontAwesome-Regular.ttf */; };
 		838B24E26A33C08D1C9953D5A29579A7 /* IconFontEnumType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB8C6952B8CCFC167D735B4CFF0BF02 /* IconFontEnumType.swift */; };
 		8AECD8218BBD8743A7967CFD0F46D776 /* FontAwesome-Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A16DAB8D86D0D13E621EFB88D5E6B343 /* FontAwesome-Solid.ttf */; };
+		8EFA8A462270A619008B2807 /* UIImageView+IconFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFA8A452270A619008B2807 /* UIImageView+IconFont.swift */; };
 		A1D11ECE4BD76E296DBE963BBCFF918A /* Iconic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BB870AE340033F7BBA30B5467FAC3B /* Iconic.swift */; };
 		B38BA3DFDA324979E6512BE5BA1CCBDB /* FontAwesome-Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A32A8ED18EA4C6A2ED2EEC3F0FDCFDE0 /* FontAwesome-Brands.ttf */; };
 		BF8FCC1E8AB0D354019670BA014B6EA3 /* UIBarButtonItem+IconFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34194DF40320FDFC86126DF148330AB4 /* UIBarButtonItem+IconFont.swift */; };
@@ -65,6 +66,7 @@
 		7D2B88324938E4DA9FD8A4512CB31E3B /* UIFont+IconFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIFont+IconFont.swift"; sourceTree = "<group>"; };
 		87D44BD74CE9A72F751B518E3981A5DC /* FontAwesome.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesome.swift; path = JustIconFont/Classes/FontAwesome/FontAwesome.swift; sourceTree = "<group>"; };
 		8EB6F8F0F23495A4118E912C12F1EC27 /* UIImage+IconFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIImage+IconFont.swift"; sourceTree = "<group>"; };
+		8EFA8A452270A619008B2807 /* UIImageView+IconFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+IconFont.swift"; sourceTree = "<group>"; };
 		9332F850D35C43922846A3668A1C9B20 /* Material Icons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Material Icons.ttf"; path = "JustIconFont/Assets/MaterialIcons/Material Icons.ttf"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F608229EE63888AE38CF6C5DA6C5D61 /* Pods-JustIconFont_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JustIconFont_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -260,6 +262,7 @@
 				7D2B88324938E4DA9FD8A4512CB31E3B /* UIFont+IconFont.swift */,
 				8EB6F8F0F23495A4118E912C12F1EC27 /* UIImage+IconFont.swift */,
 				4872466F43742B84DC4EBC09B8D26538 /* UILabel+IconFont.swift */,
+				8EFA8A452270A619008B2807 /* UIImageView+IconFont.swift */,
 			);
 			name = Extensions;
 			path = JustIconFont/Classes/Code/Extensions;
@@ -461,6 +464,7 @@
 				1114FC761BC5F53C1AB5C461C5C22FB0 /* FontAwesome.swift in Sources */,
 				838B24E26A33C08D1C9953D5A29579A7 /* IconFontEnumType.swift in Sources */,
 				0CD1DF03CA3150A59C5C261465AA4AF1 /* IconFontType.swift in Sources */,
+				8EFA8A462270A619008B2807 /* UIImageView+IconFont.swift in Sources */,
 				A1D11ECE4BD76E296DBE963BBCFF918A /* Iconic.swift in Sources */,
 				13E3F1DE1A1DC8260E92924D3F51F92F /* Ionicons.swift in Sources */,
 				D10BB7F072F4AF2E29F0CAC11D9014B8 /* JustIconFont-dummy.m in Sources */,
