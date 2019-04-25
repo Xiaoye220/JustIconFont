@@ -13,9 +13,10 @@ class IconFontEmptyClass{}
 
 public protocol IconFontType {
     
-    /// fontName is not necessarily equal to .ttf file name
+    /// font family name
     var name: String { get }
     
+    /// path of .ttf file
     var filePath: String? { get }
     
     var unicode: String { get }
@@ -23,6 +24,8 @@ public protocol IconFontType {
 
 public extension IconFontType {
     
+    
+    /// default filePath when font family name is equel to ttf file's name
     var filePath: String? {
         if let filePath = Bundle.main.path(forResource: name, ofType: "ttf") {
             return filePath

@@ -9,7 +9,7 @@
 import UIKit
 import JustIconFont
 
-class ShowIconViewController: UIViewController {
+class OpenSourceIconViewController: UIViewController {
     
     var tableView: UITableView!
     
@@ -49,6 +49,8 @@ class ShowIconViewController: UIViewController {
         tableView.dataSource = self
         tableView.tableFooterView = UIView()
         self.view.addSubview(tableView)
+        
+        self.navigationItem.title = showContent.rawValue
     }
 
     override func didReceiveMemoryWarning() {
@@ -58,7 +60,7 @@ class ShowIconViewController: UIViewController {
 
 }
 
-extension ShowIconViewController: UITableViewDelegate, UITableViewDataSource {
+extension OpenSourceIconViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return icons.count

@@ -73,7 +73,7 @@ extension RootViewController: UITableViewDelegate, UITableViewDataSource {
             let vc = storyBorad.instantiateViewController(withIdentifier: "UIExampleViewController")
             self.navigationController?.pushViewController(vc, animated: true)
         default:
-            let vc = ShowIconViewController()
+            let vc = OpenSourceIconViewController()
             vc.showContent = content
             self.navigationController?.pushViewController(vc, animated: true)
         }
