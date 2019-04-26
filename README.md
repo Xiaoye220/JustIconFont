@@ -37,11 +37,11 @@ pod 'JustIconFont/Octicons'
 
 ## Usage
 
-### Base
+### Basic
 
 Every icon can present as UIImage or NSAttributedString. 
 
-We can create UIImage with fontSize or imageSize. One is created according to the size of the font.  Another is created according to the size of the image.
+> We can create UIImage with fontSize or imageSize. One is created according to the size of the font.  Another is created according to the size of the image.
 
 ```swift
 // NSAttributedString
@@ -72,7 +72,7 @@ imageView.image = image
 
 ### Extensions
 
-There are some extensions for UIKit. We also can setup iconfont as following.
+There are some extensions for UIKit. 
 
 #### UILabel
 
@@ -157,7 +157,8 @@ public extension MyIconFont: IconFontType {
 }
 
 /// There is another way to setup custom iconfont
-/// If your TTF file's name is equel to font family name, you just need to implement protocol IconFontEnumType and return font name
+/// If your TTF file's name is equel to font family name
+/// you just need to implement protocol IconFontEnumType and return font name
 public extension MyIconFont: IconFontEnumType {
     var name: String {
         return "iconfont"
